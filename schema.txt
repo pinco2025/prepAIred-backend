@@ -1,0 +1,14 @@
+users — pk: id; RLS: enabled; rows: 7
+Key: id (uuid, fk -> auth.users.id), username, exam_type (check limited to 'JEE','NEET'), subscription_tier (default 'free'), last_login_time, created_at, updated_at.
+
+student_tests — pk: id; RLS: enabled; rows: 6
+Key: id (uuid), user_id (fk -> public.users.id), test_id (fk -> public.tests.testID), started_at (default now), answers (jsonb), score (numeric), submitted_at.
+
+user_analytics — pk: id; RLS: enabled; rows: 0
+Key: user_id (fk -> public.users.id), page_visited, time_spent_seconds, event_metadata (jsonb), created_at (default now).
+
+global — pk: id; RLS: enabled; rows: 1
+Key: id (bigint identity), link, chapter, type. (Comment: Global things accessible by anyone.)
+
+tests — pk: testID; RLS: enabled; rows: 4
+Key: testID (text, unique), url (unique), title, description, duration, totalQuestions (numeric), instructions (jsonb array), exam, type, tier, tier.
