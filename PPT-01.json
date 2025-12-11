@@ -1,0 +1,3108 @@
+{
+  "testId": "PPT-01",
+  "title": "JEE",
+  "testType": "Part",
+  "createdAt": "2025-12-08T15:10:59.165Z",
+  "duration": 10800,
+  "totalMarks": 300,
+  "totalQuestions": 75,
+  "sections": [
+    {
+      "name": "Physics A",
+      "marksPerQuestion": 4
+    },
+    {
+      "name": "Physics B",
+      "marksPerQuestion": 4
+    },
+    {
+      "name": "Chemistry A",
+      "marksPerQuestion": 4
+    },
+    {
+      "name": "Chemistry B",
+      "marksPerQuestion": 4
+    },
+    {
+      "name": "Mathematics A",
+      "marksPerQuestion": 4
+    },
+    {
+      "name": "Mathematics B",
+      "marksPerQuestion": 4
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "uuid": "e07cda17776b",
+      "text": "A particle moves from the point $(2.0\\hat{i}+4.0\\hat{j}) m$, at $t = 0$, with an initial velocity $(5.0\\hat{i}+4.0\\hat{j}) ms^{-1}$. It is acted upon by a constant force which produces a constant acceleration $(4.0\\hat{i}+4.0\\hat{j}) ms^{-2}$. What is the distance of the particle from the origin at time $2s$?",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "15 m",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$20\\sqrt{2} m$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "5 m",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$10\\sqrt{2} m$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "PHW",
+        "tag3": "M",
+        "tag4": "",
+        "type": "JM",
+        "year": "2019"
+      },
+      "chapterCode": "PHW",
+      "chapterName": "Physical World",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q2",
+      "uuid": "5d189dc4a33e",
+      "text": "The radius and height of a cone are measured by a vernier caliper to be $(5.4\\pm0.1) \\, \\text{cm}$ and $(18.6\\pm0.2) \\, \\text{cm}$ respectively. What will be the value of its volume in appropriate significant figures? (Volume $V = \\frac{1}{3}\\pi r^2 h$)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$(570 \\pm 30) \\, \\text{cm}^3$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$(568.73 \\pm 27.19) \\, \\text{cm}^3$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$(569 \\pm 27) \\, \\text{cm}^3$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$(568.7 \\pm 0.1) \\, \\text{cm}^3$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "UNM",
+        "tag3": "H",
+        "tag4": "",
+        "type": "JM",
+        "year": "2019"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units And Dimensions",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q3",
+      "uuid": "57e79e430cdf",
+      "text": "A metal wire is stretched to make it $0.8\\%$ longer. The percentage change in its electrical resistance if its volume remains unchanged is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "0.8%",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "1.6%",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "1.61%",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "0.5%",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "PHW",
+        "tag3": "E",
+        "tag4": "",
+        "type": "JM",
+        "year": "2019"
+      },
+      "chapterCode": "PHW",
+      "chapterName": "Physical World",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q4",
+      "uuid": "46d0b56aee68",
+      "text": "Analyse the given statements.\n $\\textbf{Statement I}$: If three forces $\\vec{F}_1$, $\\vec{F}_2$ and $\\vec{F}_3$ are represented by three sides of a triangle and $\\vec{F}_1+\\vec{F}_2=-\\vec{F}_3$, then these three forces are concurrent forces and satisfy the condition for equilibrium.\n $\\textbf{Statement II}$: A triangle made up of three forces $\\vec{F}_1$, $\\vec{F}_2$ and $\\vec{F}_3$ as its sides were taken in the same order, satisfies the condition for translatory equilibrium.",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Both Statement I and Statement II are true.",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "Statement I is true but Statement II is false.",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "Both Statement I and Statement II are false.",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "Statement I is false but Statement II is true.",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "PHW",
+        "tag3": "H",
+        "tag4": "",
+        "type": "JM",
+        "year": "2021"
+      },
+      "chapterCode": "PHW",
+      "chapterName": "Physical World",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q5",
+      "uuid": "c777f4024e18",
+      "text": "$$\\left(P + \\frac{a}{V^2}\\right)(V - b) = RT$$ represents the equation of state of specific gases, where P is the pressure, V is the volume, T is the temperature and a, b, R are the constants. The physical quantity, which has dimensional formula as that of $\\frac{a}{b}$, will be",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Power",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "Surface Tension",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "Work",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "Energy density",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q1",
+        "tag2": "UNM",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PWAI99",
+        "year": "2025"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units and Measurements",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q6",
+      "uuid": "8b81ee6da66b",
+      "text": "Identify the pair of physical quantities that have exactly same dimensions:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Velocity gradient and Decay constant",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "Wien's constant and Stefan constant",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "Angular frequency and Angular momentum",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "Wave number and Avogadro number",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q1",
+        "tag2": "UNM",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PW155MT",
+        "year": "2024"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units and Measurements",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q7",
+      "uuid": "f2079d1c7971",
+      "text": "For a given  combustion engine the work done by a gas molecule is given by $W = \\alpha x^2 kT e^{-\\beta x^2}$, where x is the displacement, k is the Boltzmann constant and T is the temperature. If $\\alpha$ and $\\beta$ are constants, dimensions of $\\beta$ will be:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$[M^{-1}LT]$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$[M^0L^0T^0]$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$[M^{-2}L^{-2}T^2]$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$[M^{-2}LT]$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q6",
+        "tag2": "UNM",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PW44MT",
+        "year": "2024"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units and Measurements",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q8",
+      "uuid": "565a07a07964",
+      "text": "To find the value of acceleration due to gravity $g$ an experiment is performed by using a pendulum of length $\\ell$. In this experiment, time for 100 oscillation is measured by using a watch of 1 second least count and the value is 45.0 seconds. The length is measured by using a metre scale of least count 1 mm and the value is 10.0 cm. Calculate the  error in the determination of $g$ :",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1.8%",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "2.7%",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "3.4%",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "5.4%",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q2",
+        "tag2": "UNM",
+        "tag3": "M",
+        "tag4": "",
+        "type": "jee_mock_test",
+        "year": "2025"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units and Measurements",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q9",
+      "uuid": "1828040c19d5",
+      "text": "A drone rises from rest from the ground vertically upwards with a constant acceleration 2g. An object is dropped from the drone when it is at a height h. The magnitude of velocity of the object through which it strikes on the ground ",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$v = \\sqrt{6hg}$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$v = \\sqrt{3.4hg}$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$v = \\sqrt{2hg}$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$v = \\sqrt{3hg}$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q3",
+        "tag2": "MSL",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PWAI99",
+        "year": "2025"
+      },
+      "chapterCode": "MSL",
+      "chapterName": "Motion in a Straight Line",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q10",
+      "uuid": "ebc91ae42cbc",
+      "text": "A particle located at $x = 0$ at time $t = 0$, starts moving along the positive $x$-direction with a velocity '$v$' that varies as $v = \\alpha\\sqrt{x}$. Where '$\\alpha$' is a constant. Then the displacement of the particle varies with time as",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$t^3$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$t^2$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$t$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$t^{1/2}$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q10",
+        "tag2": "MSL",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "MSL",
+      "chapterName": "Motion in a Straight Line",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q11",
+      "uuid": "982312456fc4",
+      "text": "If an object covers 2/5th of the total distance with $v_1$ speed and 3/5th distance with $v_2$ then average speed is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\frac{1}{2}\\sqrt{v_1 v_2}$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{v_1 v_2}{2}$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{2v_1 v_2}{v_1 + v_2}$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{5v_1 v_2}{3v_1 + 2v_2}$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q8",
+        "tag2": "MSL",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "MSL",
+      "chapterName": "Motion in a Straight Line",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q12",
+      "uuid": "95ca3afe9521",
+      "text": "A block, starting from rest, accelerates at the rate $f$ through a distance $S$, then continues at constant speed for time t and then decelerates at the rate $\\frac{f}{2}$ to come to rest. If the total distance traversed is 15S, then",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$S = \\frac{1}{2}ft^2$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$S = \\frac{1}{4}ft^2$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$S = \\frac{1}{72}ft^2$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$S = \\frac{1}{6}ft^2$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q5",
+        "tag2": "MSL",
+        "tag3": "H",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "MSL",
+      "chapterName": "Motion in a Straight Line",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q13",
+      "uuid": "2c4e139fb32a",
+      "text": "A balloon is rising in air vertically above a point A on the ground. When it is a height $h_1$, a man  standing at a distance $d$ (point B) from A (see figure) sees it at an angle $45°$ with respect to the vertical. When the balloon climbs up a further height $h_2$, it is seen at an angle $60°$ with respect to the vertical if the man moves further by a distance $2.464d$ (point C). Then the height $h_2$ is (given $\\tan 30° = 0.5774$):",
+      "image": "https://lh3.googleusercontent.com/d/10D3tdcAj4ALSS-o_Ef5WK8Wa6gtRXnc8",
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$1.464d$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$0.732d$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$0.464d$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$d$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "MSL",
+        "tag3": "H",
+        "tag4": "",
+        "type": "JM",
+        "year": "2020"
+      },
+      "chapterCode": "MSL",
+      "chapterName": "Motion in a Straight Line",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q14",
+      "uuid": "dd60d27127e3",
+      "text": "A ball (B1) of mass m is thrown vertically upward. Another ball (B2) of mass 2m is thrown at angle $\\theta$ with the vertical such that by the time B1 comes to the ground  is at B2 its highest point. The ratio of the heights attained by the two balls respectively is $\\frac{1}{x}$. The value of x is __________.",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "8",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "16",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "4",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q13",
+        "tag2": "MPN",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWAITS05FT",
+        "year": "2025"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q15",
+      "uuid": "684471002a21",
+      "text": "In an javelin throwing event at the Olympics, an participant throws a javelin of mass 1 kg with an initial kinetic energy of 3.2 kJ at an angle $\\alpha = 30°$ relative to the horizontal. After a duration of 3 seconds, the javelin inclination with respect to the horizontal axis is denoted as $\\beta$. Determine the value of $\\beta$, (Assume that javelin is small enough that it directs along slope of trajectory) (given the acceleration due to gravity $g = 10 \\ m/s^2$)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\cot^{-1}(4\\sqrt{2})$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$\\cot^{-1}(5\\sqrt{3})$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$\\cot^{-1}(3\\sqrt{2})$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$\\cot^{-1}(4\\sqrt{3})$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q5",
+        "tag2": "MPN",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWAITS01FT",
+        "year": "2024"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q16",
+      "uuid": "221247755b1a",
+      "text": "A man starts running along a straight road with uniform velocity $\\hat{u}=u\\hat{i}$ feels that the rain is falling vertically down along $\\hat{j}$. If he doubles his speed, he finds that the rain is coming at an angle $\\theta$ to the vertical. The velocity of rain with respect to the ground is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$u\\tan\\theta\\hat{i}+u\\hat{j}$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$u\\tan\\theta\\hat{i}+\\frac{u}{\\tan\\theta}\\hat{j}$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$u\\hat{i}+u\\tan\\theta\\hat{j}$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$\\frac{u}{\\tan\\theta}\\hat{i}+u\\hat{j}$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q1",
+        "tag2": "MPN",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS07.1FT",
+        "year": "2025"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q17",
+      "uuid": "c6cf874c07cd",
+      "text": "A bomb is dropped from an helicopter when it is at a height $h$ directly above the target. If the helicopter is moving horizontally with a speed $v$, the distance by which the bomb will miss the target is given by",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$v\\sqrt{\\frac{2h}{g}}$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$v\\sqrt{\\frac{h}{g}}$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$v\\sqrt{\\frac{2h}{g}}$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$v\\sqrt{\\frac{h}{2g}}$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "Q8",
+        "tag2": "MPN",
+        "tag3": "M",
+        "tag4": "",
+        "type": "jee_main_practice",
+        "year": "2026"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q18",
+      "uuid": "2989c004a6ab",
+      "text": "A circular particle moving in a circle of radius $R$ with uniform speed takes time $T$ to complete one revolution. If this particle is projected with the same speed at an angle $\\theta$ to the horizontal, the maximum height attained by it is equal to $4R$. The angle of projection is then given by:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$\\sin^{-1}\\left[\\frac{2gT^2}{\\pi^2 R}\\right]^{1/2}$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$\\sin^{-1}\\left[\\frac{\\pi^2 R}{2gT^2}\\right]^{1/2}$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$\\cos^{-1}\\left[\\frac{2gT^2}{\\pi^2 R}\\right]^{1/2}$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$\\cos^{-1}\\left[\\frac{\\pi R}{2gT^2}\\right]^{1/2}$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "MPN",
+        "tag3": "H",
+        "tag4": "",
+        "type": "JM",
+        "year": "2024"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q19",
+      "uuid": "18555f494e31",
+      "text": "A ball rolls off the top of a stairway with horizontal velocity $u_0$. The steps are 0.1 m high and 0.1 m wide. The minimum velocity with which that ball just hits the step 5 of the stairway will be $u = \\sqrt{x}$ $ms^{-1}$, where x = _____\n [use g = 10 $m/s^2$].",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "2",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "1",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "4",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "6",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "MPN",
+        "tag3": "M",
+        "tag4": "",
+        "type": "JM",
+        "year": "2024"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q20",
+      "uuid": "9c9f80fe8496",
+      "text": "Given below are two statements:\n \n $\\textbf{Statement (I)}$: The dimensions of Planck's constant and angular momentum are same.\n \n $\\textbf{Statement (II)}$ In Bohr's model electron revolve around the nucleus only in those orbits for which angular momentum is integral multiple of Planck's constant.\n \n In the light of the above statements, choose the most appropriate answer from the options given below:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Both Statement I and Statement II are correct",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "Statement I is incorrect but Statement II is correct",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "Statement I is correct but Statement II is incorrect",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "Both Statement I and Statement II are incorrect",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Physics A",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "UNM",
+        "tag3": "H",
+        "tag4": "",
+        "type": "JM",
+        "year": "2025"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units and Measurements",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q21",
+      "uuid": "584ec3aca66b",
+      "text": "In a given screw gauge, there are 100 divisions on the circular scale and the main scale moves by 0.5 mm on a complete rotation of the circular scale. The zero of circular scale lies 6 divisions below the line of graduation when two studs are brought in contact with each other. When a wire is placed between the studs, 4 linear scale divisions are clearly visible while 46th division the circular scale coincide with the reference line. The diameter of the wire is ________ $\\times 10^{-2}$ mm.",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "220",
+      "marks": 4,
+      "section": "Physics B",
+      "tags": {
+        "tag1": "Q25",
+        "tag2": "UNM",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PW44MT",
+        "year": "2024"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units and Measurements",
+      "difficulty": "E",
+      "division": 2
+    },
+    {
+      "id": "q22",
+      "uuid": "60508ff2098c",
+      "text": "In an experiment , it is asked to find modulus of elasticity per unit torque applied on the system. The measured quantity has dimension of $[M^a L^b T^c]$. If $b = -3$, the value of $c$ is ________",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "0",
+      "marks": 4,
+      "section": "Physics B",
+      "tags": {
+        "tag1": "PH",
+        "tag2": "UNM",
+        "tag3": "M",
+        "tag4": "",
+        "type": "JM",
+        "year": "2025"
+      },
+      "chapterCode": "UNM",
+      "chapterName": "Units and Measurements",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q23",
+      "uuid": "e802c892569d",
+      "text": "Two spherical balls having equal masses of negligible radius each are thrown upwards along the same vertical direction at an interval of 3s with the same initial velocity of 35 m/s, then these balls collide at a height of ....... m. (Take $g = 10 \\ m/s^2$)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "50",
+      "marks": 4,
+      "section": "Physics B",
+      "tags": {
+        "tag1": "Q23",
+        "tag2": "MSL",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "MSL",
+      "chapterName": "Motion in a Straight Line",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q24",
+      "uuid": "d52f5d1d7766",
+      "text": "A swimmer wants to cross a river starting from point A to land directly at point B. Line AB makes an angle of 60° with the flow of river. Magnitude of velocity of the swimmer in still water is same as that of the river. The angle $\\theta$ with the line AB should be _________ degrees, so that the swimmer reaches point B.",
+      "image": "https://lh3.googleusercontent.com/d/1R_3agp_qoZxodxucCdx0ZW5STkknLEZd",
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "60",
+      "marks": 4,
+      "section": "Physics B",
+      "tags": {
+        "tag1": "Q25",
+        "tag2": "MPN",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PWAI66",
+        "year": "2025"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q25",
+      "uuid": "fe95195d15d4",
+      "text": "Two men A and B are running along x-axis and y-axis respectively. The position coordinate of  A is given by $x(t) = 20 + 4t - 6t^2$ m. and for  B is given by $y(t) = 10 + 4t^3$ m. At time $t = 1$ sec, If the magnitude of relative velocity of  A w.r.t.  B is $\\sqrt{k}$ m/s. Then the value of $k$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "208",
+      "marks": 4,
+      "section": "Physics B",
+      "tags": {
+        "tag1": "Q28",
+        "tag2": "MPN",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWAITS01FT",
+        "year": "2024"
+      },
+      "chapterCode": "MPN",
+      "chapterName": "Motion in a Plane",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q26",
+      "uuid": "bceba5f35b2e",
+      "text": "The minimum wavelength of the given light that can be produced by the photoelectric effect with a photosensitive metal is:\n (Given: The threshold frequency of the metal is $2.0 \\times 10^{15}$ $s^{-1}$ and $c = 3.0 \\times 10^8$ m/s)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$1.5 \\times 10^{-7}$ cm",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$1.5 \\times 10^{-7}$ m",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$2.5 \\times 10^{-7}$ m",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$1.0 \\times 10^{-7}$ m",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q40",
+        "tag2": "SOA",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PWAI66",
+        "year": "2025"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q27",
+      "uuid": "67c0c55c93fa",
+      "text": "The electron are identified by the quantum numbers 'n' and '$\\ell$'\n I. n = 4, $\\ell$ = 1\n II. n = 4, $\\ell$ = 0\n III. n = 3, $\\ell$ = 2\n IV. n = 3, $\\ell$ = 1\n \n Can be placed in order of increasing energy as",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "III < IV < II < I",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "IV < II < III < I",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "II < IV < I < III",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "I < III < II < IV",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q26",
+        "tag2": "SOA",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PW166MT",
+        "year": "2024"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q28",
+      "uuid": "a10ee5d5c8fa",
+      "text": "Match the Column – I with Column – II",
+      "image": "https://lh3.googleusercontent.com/d/1N1nnN747c_Aov9qeO07v-6EYGOhhcnag",
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "A → P; B→ Q; C→R; D →S",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "A → Q; B →P; C→R; D →S",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "A → P; B → S; C→R; D→Q",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "A → R; B → Q; C→P; D →S",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q40",
+        "tag2": "SOA",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PW122MT",
+        "year": "2025"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q29",
+      "uuid": "9bbcbd2df2cf",
+      "text": "(A) $M_{(g)} \\rightarrow M^-_{(g)}$\n (B) $M_{(g)} \\rightarrow M^+_{(g)}$\n (C) $M^+_{(g)} \\rightarrow M^{2+}_{(g)}$\n (D) $M^{2+}_{(g)} \\rightarrow M^{3+}_{(g)}$\n Minimum and maximum Ionisation Enthalpy would be of:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "A, D",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "B, C",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "C, D",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "D, A",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q40",
+        "tag2": "SOA",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW44MT",
+        "year": "2024"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q30",
+      "uuid": "21421133b87e",
+      "text": "Consider the following statements.\n $\\textbf{A}$ – Magnetic quantum no. gives information about spatial orientation of orbitals\n \n $\\textbf{B}$ – Energy of an orbital depends on principal quantum no. for unielectronic species.\n \n $\\textbf{C}$ – Spin quantum no. is also obtained from Schrodinger wave equation\n \n The correct statement(s) is/are",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Only A",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "Only A and B",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "Only A and C",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "A, B and C",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q36",
+        "tag2": "SOA",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW44MT",
+        "year": "2024"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q31",
+      "uuid": "917022c5280c",
+      "text": "The energy required to break one mole of Cl–Cl bonds in $Cl_2$ is 242 kJ $mol^{-1}$. The longest wavelength of light capable of breaking a single CI–Cl bond is\n (c = $3\\times 10^8$ $ms^{-1}$ and $N_A$ = $6.02\\times 10^{23}$ $mol^{-1}$)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "594 nm",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "640 nm",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "700 nm",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "494 nm",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q26",
+        "tag2": "SOA",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "jee_main_full_syllabus",
+        "year": "2024"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q32",
+      "uuid": "ba733de809ee",
+      "text": "A sample of 3 gram (92% pure) of silver carbonate on being strongly heated yields a residue and gaseous products. Find the volume of evolved gases at STP.\n (Given, molar mass of Ag = 108 g/mol)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "112 mL",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "22 mL",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "336 mL",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "33.6 mL",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q44",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW166MT",
+        "year": "2024"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q33",
+      "uuid": "56fadcfcc715",
+      "text": "The total number of neutrons present in 36 g of water is:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$24 N_A$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$32 N_A$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$16 N_A$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$20 N_A$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q31",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q34",
+      "uuid": "657ce3b794f2",
+      "text": "50 mL of a solution of $Na_2CO_3$ neutralizes 49.35 mL of 4 N HCl. The reaction is represented as$$CO_3^{2-} + 2H^+ \\rightarrow CO_2 + H_2O$$The density of this $Na_2CO_3$ solution is 1.25 g mL$^{-1}$.\n The percentage of $Na_2CO_3$ in it is:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "47.7",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "37.7",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "26.7",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "16.7",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q26",
+        "tag2": "SBC",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PW111MT",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q35",
+      "uuid": "876711fbc57b",
+      "text": "For the reaction, $$2Fe(NO_3)_3 + 3Na_2CO_3 \\rightarrow Fe_2(CO_3)_3 + 6NaNO_3$$Initially if 2.5 mole of $Fe(NO_3)_3$ and 3.6 mole of $Na_2CO_3$ is taken. If 6.3 mole of $NaNO_3$ is obtained then % yield of given reaction is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "50",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "84",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "87.5",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "100",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q28",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS07.2",
+        "year": "2024"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q36",
+      "uuid": "cba49418c72b",
+      "text": "A given sample of oxygen gas (only $O_2$ molecules) contains $O^{16}$ and $O^{17}$ oxygen atoms only in 9 : 1 atomic ratio. The average molecular mass of $O_2$ in this sample is:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "32.00",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "16.30",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "32.20",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "33.80",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q27",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS06MT",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q37",
+      "uuid": "a175b38e1e8e",
+      "text": "Myoglobin stores oxygen for metabolic process in muscle. Chemical analysis shows that it contains 0.32% Fe(iron) by mass. If there is one Fe atom per molecule of myoglobin, what is the molar mass of myoglobin?\n [At. Mass of Fe = 56u]",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$1.75 \\times 10^4$ g/mol",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$3.5 \\times 10^5$ g/mol",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$1 \\times 10^4$ g/mol",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$2.5 \\times 10^5$ g/mol",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q31",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "jee_main_full",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q38",
+      "uuid": "9abfb2f2d88f",
+      "text": "In following chemical reaction by taking 159 g of $Cu_2S$, how much gram of $SO_3$ produced?\n (At. mass of Cu = 63.5, S =32, O =16 g/mole)\n $$(i) Cu_2S + O_2 \\rightarrow Cu_2O + SO_2$$$$(ii) 2SO_2 + O_2 \\rightarrow 2SO_3$$",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "80 g",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "64 g",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "120 g",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "160 g",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q31",
+        "tag2": "SBC",
+        "tag3": "E",
+        "tag4": "",
+        "type": "jee_mock_test",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q39",
+      "uuid": "e1afce3f50ad",
+      "text": "Given below are two statements: one is labelled as Assertion A and the other is labelled as Reason R:\n \n $\\textbf{Assertion A}$: Equivalent weight of $NH_3$ in the reaction $N_2 \\rightarrow NH_3$ is 17/3 while that of $N_2$ is 28/6.\n \n $\\textbf{Reason R}$: Equivalent weight = $\\frac{\\text{Molecular weight}}{\\text{Mole of e}^- \\text{ lost or gained by 1 mole species}}$\n \n In the light of the above statements, choose the correct answer from the options given below:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "A is true but R is false.",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "A is false but R is true.",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "Both A and R are true and R is the correct explanation of A.",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "Both A and R are true but R is NOT the correct explanation of A.",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q39",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "jee_practice_test",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q40",
+      "uuid": "293919fa3742",
+      "text": "How many H-atoms are present in 0.046 g of ethanol ($CH_3CH_2OH$)?\n (Molar mass of ethanol = 46 g/mol)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$6 \\times 10^{20}$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$1.2 \\times 10^{21}$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$3 \\times 10^{21}$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$3.6 \\times 10^{21}$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q45",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01",
+        "year": "2026"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q41",
+      "uuid": "704f78c2fcb2",
+      "text": "Given below are two statements:\n \n $\\textbf{Statement (I)}$: When 2 moles of $BaCl_2$ react with 3 moles of $Na_3PO_4$, 0.66 mole of $Ba_3(PO_4)_2$ are produced.\n \n $\\textbf{Statement (II)}$: $BaCl_2$ is the limiting reactant and some $Na_3PO_4$ remains unreacted.\n \n In the light of the above statements, choose the most appropriate answer from the options given below:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "Statement I is correct but Statement II is incorrect.",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "Statement I is incorrect but Statement II is correct.",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "Both Statement I and Statement II are correct.",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "Both Statement I and Statement II are incorrect.",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "Q35",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01",
+        "year": "2026"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q42",
+      "uuid": "1244773c9a59",
+      "text": "25 mL of potassium bromide solution gave 4.70 g silver bromide when treated with excess of silver nitrate solution. The molarity of the potassium bromide solution is ________ M.\n (Given: $\\text{K} = 39$, $\\text{Br} = 80$, $\\text{Ag} = 108$, $\\text{N} = 14$, $\\text{O} = 16 \\, \\text{g mol}^{-1}$)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1 M",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "1.05M",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "0.76 M",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "1.055M",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "PCH",
+        "tag2": "SBC",
+        "tag3": "E",
+        "tag4": "",
+        "type": "JM",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q43",
+      "uuid": "de157812c2cb",
+      "text": "Concentrated sulfuric acid is labelled as 80% by mass. The volume in mL of the solution which contains 48 g of sulfuric acid is ________ mL.\n (Given: Density of sulfuric acid solution is 1.5 g/mL)",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "40",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "32",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "45",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "55",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "PCH",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "JM",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q44",
+      "uuid": "d153ee115ee0",
+      "text": "$0.02$ cm thick coating of gold is deposited on a plate of $0.08$ m$^2$ area. The number of gold atoms deposited on plate are _______ $\\times 10^{23}$. ( Round off to the nearest integer.)\n (At mass $\\text{Au} = 197$, $d = 19.3$ g cm$^{-3}$).",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "9",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "10",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "11",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "12",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "PCH",
+        "tag2": "SBC",
+        "tag3": "E",
+        "tag4": "",
+        "type": "JM",
+        "year": "2024"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "E",
+      "division": 1
+    },
+    {
+      "id": "q45",
+      "uuid": "03c56ad23115",
+      "text": "The density of x M solution (x molar) of $\\text{KOH}$ is $1.045$ g mL$^{-1}$, while in molality, the concentration of the solution is $2$ m ($2$ molal). Then x is _______ M.( Round off to the nearest integer.)\n (Given: Molar mass of $\\text{KOH}$ is $56$ g/mol).",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "3.5",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "3.8",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "2.8",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "2.0",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Chemistry A",
+      "tags": {
+        "tag1": "PCH",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "JM",
+        "year": "2024"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q46",
+      "uuid": "1517785ed927",
+      "text": "The value of azimuthal quantum number of the outermost electron of $Zn^+$ ion is _________.",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "0",
+      "marks": 4,
+      "section": "Chemistry B",
+      "tags": {
+        "tag1": "Q48",
+        "tag2": "SOA",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PW99MT",
+        "year": "2025"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "E",
+      "division": 2
+    },
+    {
+      "id": "q47",
+      "uuid": "eed8c0e5ce6e",
+      "text": "The frequency of radiation emitted when an electron falls from $n = 4$ to $n = 1$ state in a hydrogen atom is $x \\times 10^{15} \\ s^{-1}$, the value of $x$ will be_____.(Nearest integer)\n (Given: Ionization energy of hydrogen atom is $2.18 \\times 10^{-18} \\ J \\ atom^{-1}$ and $h = 6.625 \\times 10^{-34} \\ Js$) ",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "3",
+      "marks": 4,
+      "section": "Chemistry B",
+      "tags": {
+        "tag1": "Q50",
+        "tag2": "SOA",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWAITS02FT",
+        "year": "2024"
+      },
+      "chapterCode": "SOA",
+      "chapterName": "Structure of Atom",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q48",
+      "uuid": "90ecc1eb53b9",
+      "text": "In order to prepare 50 mL of an aqueous solution with 140 mg of $Na^+$ per mL, the amount (in g) of $NaNO_3$ required is_______. (Rounded off to the nearest integer) \n [Given: At mass: Na = 23, N = 14, O = 16]",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "26",
+      "marks": 4,
+      "section": "Chemistry B",
+      "tags": {
+        "tag1": "Q49",
+        "tag2": "SBC",
+        "tag3": "E",
+        "tag4": "0",
+        "type": "PWAI77",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "E",
+      "division": 2
+    },
+    {
+      "id": "q49",
+      "uuid": "c36aadf47953",
+      "text": "3.36 g of dibromide ($MBr_2$) of an element M, is completely converted to 1.58 g of dichloride ($MCl_2$).$$MBr_2 + Cl_2 \\rightarrow MCl_2 + Br_2$$.\n The molar mass of M is ____ g/mol\n [Cl: 35.5 g/mol; Br: 80 g/mol]",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "8",
+      "marks": 4,
+      "section": "Chemistry B",
+      "tags": {
+        "tag1": "Q46",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q50",
+      "uuid": "47ac72ee9a2f",
+      "text": "200 g of propane is completely reacted with 2000 g of oxygen. The mole fraction of water molecules formed in the resulting mixture is x ×10$^{-2}$. The value of x is _______. (Nearest integer)\n [Atomic weight: H=1.008; C=12.00; O = 16.00]",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "25",
+      "marks": 4,
+      "section": "Chemistry B",
+      "tags": {
+        "tag1": "Q46",
+        "tag2": "SBC",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW99MT",
+        "year": "2025"
+      },
+      "chapterCode": "SBC",
+      "chapterName": "Some Basic Concepts of Chemistry",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q51",
+      "uuid": "51c8973256bc",
+      "text": "Let $\\alpha$, $\\beta$ be the roots of the quadratic equation $x^2 + 8x + 4 = 0$. Then $\\frac{\\alpha^{25} + \\beta^{25} + \\alpha^{14} + \\beta^{14}}{\\alpha^{17} + \\beta^{17} + \\alpha^{10} + \\beta^{10}}$ is equal to",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "729",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "72",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "256",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "9",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q60",
+        "tag2": "QEN1",
+        "tag3": "H",
+        "tag4": "0",
+        "type": "PWAI99",
+        "year": "2025"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q52",
+      "uuid": "ca3b0daef92b",
+      "text": "Solution set of the in equality $(\\log_{10}(x - 3))(\\log_x 10)(\\log_{10}(x - 2)) + 2\\log_{10}^2(x - 2) > 0$, is:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "(0, 4)",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "($-\\infty$, 1)",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "(4, $\\infty$)",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "(2, 4)",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q70",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW166MT",
+        "year": "2024"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q53",
+      "uuid": "4ad962c625c1",
+      "text": "If $a - 2b - 3c = 0$ then $a^3 - 8b^3 - 27c^3$ is equal to",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$abc$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$6abc$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$-18abc$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$18abc$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q70",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q54",
+      "uuid": "a903cf5e82f2",
+      "text": "If $\\left(\\frac{x^{1/2}y^{-1/3}}{x^{-1}y^{1/3}}\\right)^6 \\times \\left(\\frac{x^{-1}y^2}{x^3y^{-2}}\\right)^{-1/3} = x^a y^b$, then the value of $(a + b + 1)$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "–1",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "–2",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q68",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q55",
+      "uuid": "621e1051d6e0",
+      "text": "If $a$, $b$ and $c$ are three non zero real number such that $4a^2 + 9b^2 + c^2 - 6ab - 3bc - 2ca = 0$ then value of $(4a + c)/b$ is equal to",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "6",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "7",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "8",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "9",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q61",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q56",
+      "uuid": "8db157b45878",
+      "text": "The number of distinct real roots of the equation $|x|^7 - 7|x| - 2 = 0$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "5",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "7",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "1",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q61",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW155MT",
+        "year": "2024"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q57",
+      "uuid": "35f73b618123",
+      "text": "Let $\\alpha$ and $\\beta$ are two solutions of the equation $64^x - 84 \\cdot 12^x + 27 \\cdot 16^x = 0$. Then the quadratic equation whose roots are $\\alpha + \\beta$ and $\\beta - \\alpha$ ($\\beta > \\alpha$) is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$x^2 - 5x + 6 = 0$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$x^2 - 4x + 3 = 0$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$x^2 - 6x + 5 = 0$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$x^2 - 5x + 3 = 0$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q51",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW144MT",
+        "year": "2025"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q58",
+      "uuid": "efb5cedcc5e0",
+      "text": "If $x^2 + 2x - 9 > 6kx - 8k^2 - 2$ $\\forall x \\in R$. Then",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$k \\in (6, 10)$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$k \\in (2, 4)$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$k \\in (-4, -2)$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$k \\in (-10, -6)$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q69",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWAITS04FT",
+        "year": "2025"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q59",
+      "uuid": "1d1fbf0799e3",
+      "text": "Let $\\alpha$ and $\\beta$ be the roots of the equation $x^2 - x - 1 = 0$. If $p_k = (\\alpha)^k + (\\beta)^k$, k $\\geq$ 1, then which of the following statements is not true?",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$p_5 = p_2 . p_3$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$(p_1 + p_2 + p_3 + p_4 + p_5) = 26$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$p_3 = p_5 - p_4$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$p_5 = 11$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q51",
+        "tag2": "CNQ",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW88MT",
+        "year": "2025"
+      },
+      "chapterCode": "CNQ",
+      "chapterName": "Complex Numbers and Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q60",
+      "uuid": "a9fb58429d8a",
+      "text": "Least positive integral value of 'a' for which $(\\log_{x+1}(a^2-3))^{-1} + (\\log_{3x+1}a)^{-1} > 0$; $x \\neq 0$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "1",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "2",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "3",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "4",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q58",
+        "tag2": "CNQ",
+        "tag3": "H",
+        "tag4": "",
+        "type": "jee_practice_test",
+        "year": "2026"
+      },
+      "chapterCode": "CNQ",
+      "chapterName": "Complex Numbers and Quadratic Equations",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q61",
+      "uuid": "0d7ce1ec44e0",
+      "text": "The number of integral values of $m$ for which the equation $(1 + m^2)x^2 - 2(1 + 3m)x + (1 + 8m) = 0$ has no real roots is:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$2$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "Infinitely many",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$1$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$3$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q67",
+        "tag2": "CNQ",
+        "tag3": "M",
+        "tag4": "",
+        "type": "jee_prayas_mock_test",
+        "year": "2025"
+      },
+      "chapterCode": "CNQ",
+      "chapterName": "Complex Numbers and Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q62",
+      "uuid": "50226dea5898",
+      "text": "The set of values of $p$ for which the roots of the equation $3x^2 + 2x + p(p - 1) = 0$ are of opposite signs is:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$(-\\infty, 1)$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$(-\\infty, 0)$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$(0, 1)$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "None of these",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q59",
+        "tag2": "CNQ",
+        "tag3": "M",
+        "tag4": "",
+        "type": "jee_main_practice",
+        "year": "2026"
+      },
+      "chapterCode": "CNQ",
+      "chapterName": "Complex Numbers and Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q63",
+      "uuid": "d66ffe0b162e",
+      "text": "If $\\alpha$, $\\beta$ are the roots of $x^2 + 3x - 1 = 0$ then the equation whose roots are $\\frac{\\alpha}{\\alpha + 2}$, $\\frac{\\beta}{\\beta + 2}$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$x^2 + x - 1 = 0$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$x^2 - x + 1 = 0$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$x^2 + x + 1 = 0$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "None of these",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q53",
+        "tag2": "CNQ",
+        "tag3": "M",
+        "tag4": "",
+        "type": "jee_main_practice",
+        "year": "2026"
+      },
+      "chapterCode": "CNQ",
+      "chapterName": "Complex Numbers and Quadratic Equations",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q64",
+      "uuid": "356e13d3828e",
+      "text": "If x, y, z are positive and x + y + z = 1, then the minimum value of $\\left(\\frac{1}{x} - 1\\right)\\left(\\frac{1}{y} - 1\\right)\\left(\\frac{1}{z} - 1\\right)$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "12",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "4",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "8",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "9",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q68",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW166MT",
+        "year": "2024"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q65",
+      "uuid": "f11fb3abaf38",
+      "text": "$\\log_7 \\log_7 \\sqrt{7\\sqrt{7\\sqrt{7}}}$ is equal to:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$3\\log_2 7$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$3\\log_7 2$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$1 - 3\\log_7 2$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$1 - 3\\log_2 7$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q66",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q66",
+      "uuid": "fff0fb95e7d7",
+      "text": "The solution set of inequation $(0.5)^{\\log_3 \\log_{(1/5)}\\left(x^2 - \\frac{4}{5}\\right)} > 1$, is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$x \\in \\left(\\frac{-3}{\\sqrt{5}}, -1\\right) \\cup \\left(1, \\frac{3}{\\sqrt{5}}\\right)$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$x \\in (-6, -1) \\cup (1, 6)$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$x \\in \\left(-\\infty, 0\\right) \\cup \\left(3, \\frac{5}{2}\\right)$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$x \\in \\left(\\frac{-8}{7}, 0\\right) \\cup \\left(\\frac{8}{7}, \\infty\\right)$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q63",
+        "tag2": "LIQ",
+        "tag3": "H",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q67",
+      "uuid": "174d37f21b71",
+      "text": "Number of positive integral values of $x$ satisfying the inequality $\\frac{(x-4)^{2017} \\cdot (x+8)^{2016}(x+1)}{x^{2016}(x-2)^3 \\cdot (x+3)^5 \\cdot (x-6)(x+9)^{2018}} \\leq 0$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "0",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "1",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "2",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "3",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q58",
+        "tag2": "LIQ",
+        "tag3": "H",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "H",
+      "division": 1
+    },
+    {
+      "id": "q68",
+      "uuid": "ad8aef294bea",
+      "text": "If $\\log_x(2 + x) \\leq \\log_x(6 - x)$, then the complete solution of $x$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$(1, 2]$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$(0, 1) \\cup (1, 2]$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$(0, 1) \\cup [2, 6)$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$\\left[\\frac{3}{2}, 2\\right]$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "a",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q55",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q69",
+      "uuid": "a82c9d3348fa",
+      "text": "Complete solution set of $|||x + 1| - 1| - 1| \\leq 1$, is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$x \\in [2, 4]$",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "$x \\in [-4, 2]$",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "$x \\in [8, 10]$",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "$x \\in [-6, 4]$",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "b",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q54",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q70",
+      "uuid": "f229315f860b",
+      "text": "Let $x, y > 0$. If $x^3 y^2 = 2^{15}$, then the least value of $3x + 2y$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "30",
+          "schematic": null
+        },
+        {
+          "id": "b",
+          "text": "32",
+          "schematic": null
+        },
+        {
+          "id": "c",
+          "text": "36",
+          "schematic": null
+        },
+        {
+          "id": "d",
+          "text": "40",
+          "schematic": null
+        }
+      ],
+      "correctAnswer": "d",
+      "marks": 4,
+      "section": "Mathematics A",
+      "tags": {
+        "tag1": "Q54",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW155MT",
+        "year": "2024"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 1
+    },
+    {
+      "id": "q71",
+      "uuid": "f9725afd73c9",
+      "text": "If $(x + y)^2 = 2(x^2 + y^2)$ and $(x - y + \\lambda)^2 = 4$, $\\lambda > 0$, then $\\lambda$ is equal to:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "2",
+      "marks": 4,
+      "section": "Mathematics B",
+      "tags": {
+        "tag1": "Q75",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWPS01.1Q",
+        "year": "2025"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q72",
+      "uuid": "3e6fa52c0a21",
+      "text": "A quadratic equation with integral coefficients has two prime numbers as its roots. If the sum of the coefficients of the equation is prime, then the sum of the roots is ______.",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "5",
+      "marks": 4,
+      "section": "Mathematics B",
+      "tags": {
+        "tag1": "Q74",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW111MT",
+        "year": "2025"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q73",
+      "uuid": "6a1c142480a1",
+      "text": "Let the equation $x^2 - 4\\lambda x + 5 = 0$ and the equation $x^2 - \\left(3\\sqrt{2} + 2\\sqrt{3}\\right)x + 7 + 3\\lambda\\sqrt{3} = 0$, $\\lambda > 0$ have a common root. If sum of their roots which are not common is $3\\sqrt{2}$ then $\\lambda^2$ is",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "2",
+      "marks": 4,
+      "section": "Mathematics B",
+      "tags": {
+        "tag1": "Q81",
+        "tag2": "QEN1",
+        "tag3": "M",
+        "tag4": "",
+        "type": "PWAITS01FT",
+        "year": "2024"
+      },
+      "chapterCode": "QEN1",
+      "chapterName": "Quadratic Equations",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q74",
+      "uuid": "50c30ab57310",
+      "text": "If $\\frac{(x-3)(x-4)}{(x^2-17)(x-2)} - \\frac{x}{(1-x)(x^2+32)} < 0$ then no. of integers x satisfying the inequality is:",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "31",
+      "marks": 4,
+      "section": "Mathematics B",
+      "tags": {
+        "tag1": "Q72",
+        "tag2": "LIQ",
+        "tag3": "M",
+        "tag4": "0",
+        "type": "PW44MT",
+        "year": "2024"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "M",
+      "division": 2
+    },
+    {
+      "id": "q75",
+      "uuid": "48c54440a354",
+      "text": "Let $P = \\{a \\in \\mathbb{R} : [a+2] + [a+4] \\leq 2\\}$\n\n$Q = \\left\\{a \\in \\mathbb{R} : 3^a \\left(\\sum_{i=1}^{\\infty} \\frac{3}{10^i}\\right)^{a-3} < 3^{-3a}\\right\\}$, where $[t]$ denotes greatest integer function.\n Then $P \\cap Q$ is $-\\infty < a < (-1 \\times r)$ the value of r is ",
+      "image": 0,
+      "imageSchematic": null,
+      "imageSchematicType": null,
+      "options": [],
+      "correctAnswer": "1",
+      "marks": 4,
+      "section": "Mathematics B",
+      "tags": {
+        "tag1": "Q51",
+        "tag2": "LIQ",
+        "tag3": "H",
+        "tag4": "",
+        "type": "PWPS07FT",
+        "year": "2025"
+      },
+      "chapterCode": "LIQ",
+      "chapterName": "Linear Inequalities",
+      "difficulty": "H",
+      "division": 2
+    }
+  ]
+
+}
+
+
+
+
+
+
+
+
+
+
