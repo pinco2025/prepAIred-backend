@@ -9,7 +9,8 @@
   "sections": [
     {
       "name": "Physics A",
-      "marksPerQuestion": 4
+      "marksPerQuestion": 4,
+      "negagiveMarksPerQuestion" : -1
     },
     {
       "name": "Physics B",
@@ -17,19 +18,23 @@
     },
     {
       "name": "Chemistry A",
-      "marksPerQuestion": 4
+      "marksPerQuestion": 4,
+      "negagiveMarksPerQuestion" : -1
     },
     {
       "name": "Chemistry B",
-      "marksPerQuestion": 4
+      "marksPerQuestion": 4,
+      "negagiveMarksPerQuestion" : -1
     },
     {
       "name": "Mathematics A",
-      "marksPerQuestion": 4
+      "marksPerQuestion": 4,
+      "negagiveMarksPerQuestion" : -1
     },
     {
       "name": "Mathematics B",
-      "marksPerQuestion": 4
+      "marksPerQuestion": 4,
+      "negagiveMarksPerQuestion" : -1
     }
   ],
   "questions": [
