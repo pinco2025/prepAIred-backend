@@ -1,6 +1,7 @@
 import json
 import logging
-from github import Github, GithubException
+import base64
+import httpx
 from app.core.config import settings
 
 logger = logging.getLogger(__name__)
@@ -123,38 +124,48 @@ class ScoreService:
 
         return output
 
-    def push_to_github(self, data: dict, filename: str) -> str:
+    async def push_to_github(self, data: dict, filename: str) -> str:
         """
-        Pushes the data to a GitHub repository.
+        Pushes the data to a GitHub repository using the async HTTP client.
         Returns the URL of the pushed file.
         """
         if not settings.GITHUB_TOKEN or not settings.GITHUB_REPO:
             raise ValueError("GITHUB_TOKEN and GITHUB_REPO must be set in configuration")
 
-        g = Github(settings.GITHUB_TOKEN)
+        base_url = f"https://api.github.com/repos/{settings.GITHUB_REPO}/contents/{filename}"
+        headers = {
+            "Authorization": f"Bearer {settings.GITHUB_TOKEN}",
+            "Accept": "application/vnd.github.v3+json",
+            "X-GitHub-Api-Version": "2022-11-28"
+        }
 
-        try:
-            repo = g.get_repo(settings.GITHUB_REPO)
+        content_str = json.dumps(data, indent=4)
+        content_encoded = base64.b64encode(content_str.encode("utf-8")).decode("utf-8")
 
-            content = json.dumps(data, indent=4)
-            message = f"Add score results for {filename}"
+        message = f"Add score results for {filename}"
 
+        async with httpx.AsyncClient() as client:
+            # Check if file exists to get SHA (for update)
+            sha = None
             try:
-                # Check if file exists to update
-                contents = repo.get_contents(filename)
-                repo.update_file(contents.path, message, content, contents.sha)
-                logger.info(f"Updated existing file {filename} in GitHub repo {settings.GITHUB_REPO}")
-            except Exception:
-                # Create new file
-                repo.create_file(filename, message, content)
-                logger.info(f"Created new file {filename} in GitHub repo {settings.GITHUB_REPO}")
+                get_response = await client.get(base_url, headers=headers)
+                if get_response.status_code == 200:
+                    sha = get_response.json().get("sha")
+            except Exception as e:
+                logger.warning(f"Failed to check if file exists: {e}")
 
-            # Construct the URL (assuming public repo or accessible via raw)
-            # Or return the blob URL
-            return f"https://github.com/{settings.GITHUB_REPO}/blob/main/{filename}"
+            payload = {
+                "message": message,
+                "content": content_encoded
+            }
+            if sha:
+                payload["sha"] = sha
 
-        except Exception as e:
-            logger.error(f"Failed to push to GitHub: {e}")
-            raise e
+            response = await client.put(base_url, headers=headers, json=payload)
+            response.raise_for_status()
+
+            resp_data = response.json()
+            # Return the html_url from the content object in the response
+            return resp_data.get("content", {}).get("html_url")
 
 score_service = ScoreService()
