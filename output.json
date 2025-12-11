@@ -1,0 +1,863 @@
+{
+    "attempt_comparison": [
+        {
+            "question_uuid": "e07cda17776b",
+            "question_id": "q1",
+            "section": "Physics A",
+            "chapter_tag": "PHW",
+            "user_response": "b",
+            "correct_response": "b",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "5d189dc4a33e",
+            "question_id": "q2",
+            "section": "Physics A",
+            "chapter_tag": "UNM",
+            "user_response": "d",
+            "correct_response": "a",
+            "status": "Incorrect",
+            "marks_awarded": -1
+        },
+        {
+            "question_uuid": "57e79e430cdf",
+            "question_id": "q3",
+            "section": "Physics A",
+            "chapter_tag": "PHW",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "46d0b56aee68",
+            "question_id": "q4",
+            "section": "Physics A",
+            "chapter_tag": "PHW",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "c777f4024e18",
+            "question_id": "q5",
+            "section": "Physics A",
+            "chapter_tag": "UNM",
+            "user_response": "c",
+            "correct_response": "c",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "8b81ee6da66b",
+            "question_id": "q6",
+            "section": "Physics A",
+            "chapter_tag": "UNM",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "f2079d1c7971",
+            "question_id": "q7",
+            "section": "Physics A",
+            "chapter_tag": "UNM",
+            "user_response": null,
+            "correct_response": "b",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "565a07a07964",
+            "question_id": "q8",
+            "section": "Physics A",
+            "chapter_tag": "UNM",
+            "user_response": "d",
+            "correct_response": "d",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "1828040c19d5",
+            "question_id": "q9",
+            "section": "Physics A",
+            "chapter_tag": "MSL",
+            "user_response": "d",
+            "correct_response": "a",
+            "status": "Incorrect",
+            "marks_awarded": -1
+        },
+        {
+            "question_uuid": "ebc91ae42cbc",
+            "question_id": "q10",
+            "section": "Physics A",
+            "chapter_tag": "MSL",
+            "user_response": "b",
+            "correct_response": "b",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "982312456fc4",
+            "question_id": "q11",
+            "section": "Physics A",
+            "chapter_tag": "MSL",
+            "user_response": "d",
+            "correct_response": "d",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "95ca3afe9521",
+            "question_id": "q12",
+            "section": "Physics A",
+            "chapter_tag": "MSL",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "2c4e139fb32a",
+            "question_id": "q13",
+            "section": "Physics A",
+            "chapter_tag": "MSL",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "dd60d27127e3",
+            "question_id": "q14",
+            "section": "Physics A",
+            "chapter_tag": "MPN",
+            "user_response": "b",
+            "correct_response": "d",
+            "status": "Incorrect",
+            "marks_awarded": -1
+        },
+        {
+            "question_uuid": "684471002a21",
+            "question_id": "q15",
+            "section": "Physics A",
+            "chapter_tag": "MPN",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "221247755b1a",
+            "question_id": "q16",
+            "section": "Physics A",
+            "chapter_tag": "MPN",
+            "user_response": null,
+            "correct_response": "b",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "c6cf874c07cd",
+            "question_id": "q17",
+            "section": "Physics A",
+            "chapter_tag": "MPN",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "2989c004a6ab",
+            "question_id": "q18",
+            "section": "Physics A",
+            "chapter_tag": "MPN",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "18555f494e31",
+            "question_id": "q19",
+            "section": "Physics A",
+            "chapter_tag": "MPN",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "9c9f80fe8496",
+            "question_id": "q20",
+            "section": "Physics A",
+            "chapter_tag": "UNM",
+            "user_response": "c",
+            "correct_response": "c",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "584ec3aca66b",
+            "question_id": "q21",
+            "section": "Physics B",
+            "chapter_tag": "UNM",
+            "user_response": "420",
+            "correct_response": "220",
+            "status": "Incorrect",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "60508ff2098c",
+            "question_id": "q22",
+            "section": "Physics B",
+            "chapter_tag": "UNM",
+            "user_response": "0",
+            "correct_response": "0",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "e802c892569d",
+            "question_id": "q23",
+            "section": "Physics B",
+            "chapter_tag": "MSL",
+            "user_response": null,
+            "correct_response": "50",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "d52f5d1d7766",
+            "question_id": "q24",
+            "section": "Physics B",
+            "chapter_tag": "MPN",
+            "user_response": null,
+            "correct_response": "60",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "fe95195d15d4",
+            "question_id": "q25",
+            "section": "Physics B",
+            "chapter_tag": "MPN",
+            "user_response": "648",
+            "correct_response": "208",
+            "status": "Incorrect",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "bceba5f35b2e",
+            "question_id": "q26",
+            "section": "Chemistry A",
+            "chapter_tag": "SOA",
+            "user_response": "b",
+            "correct_response": "b",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "67c0c55c93fa",
+            "question_id": "q27",
+            "section": "Chemistry A",
+            "chapter_tag": "SOA",
+            "user_response": "b",
+            "correct_response": "b",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "a10ee5d5c8fa",
+            "question_id": "q28",
+            "section": "Chemistry A",
+            "chapter_tag": "SOA",
+            "user_response": "a",
+            "correct_response": "a",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "9bbcbd2df2cf",
+            "question_id": "q29",
+            "section": "Chemistry A",
+            "chapter_tag": "SOA",
+            "user_response": "c",
+            "correct_response": "a",
+            "status": "Incorrect",
+            "marks_awarded": -1
+        },
+        {
+            "question_uuid": "21421133b87e",
+            "question_id": "q30",
+            "section": "Chemistry A",
+            "chapter_tag": "SOA",
+            "user_response": null,
+            "correct_response": "b",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "917022c5280c",
+            "question_id": "q31",
+            "section": "Chemistry A",
+            "chapter_tag": "SOA",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "ba733de809ee",
+            "question_id": "q32",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "56fadcfcc715",
+            "question_id": "q33",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": "c",
+            "correct_response": "c",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "657ce3b794f2",
+            "question_id": "q34",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "876711fbc57b",
+            "question_id": "q35",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": "c",
+            "correct_response": "c",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "cba49418c72b",
+            "question_id": "q36",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "a175b38e1e8e",
+            "question_id": "q37",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": "a",
+            "correct_response": "a",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "9abfb2f2d88f",
+            "question_id": "q38",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": "a",
+            "correct_response": "a",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "e1afce3f50ad",
+            "question_id": "q39",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "293919fa3742",
+            "question_id": "q40",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": "d",
+            "correct_response": "d",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "704f78c2fcb2",
+            "question_id": "q41",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": "c",
+            "correct_response": "c",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "1244773c9a59",
+            "question_id": "q42",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "de157812c2cb",
+            "question_id": "q43",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "d153ee115ee0",
+            "question_id": "q44",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": "a",
+            "correct_response": "a",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "03c56ad23115",
+            "question_id": "q45",
+            "section": "Chemistry A",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "1517785ed927",
+            "question_id": "q46",
+            "section": "Chemistry B",
+            "chapter_tag": "SOA",
+            "user_response": "0",
+            "correct_response": "0",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "eed8c0e5ce6e",
+            "question_id": "q47",
+            "section": "Chemistry B",
+            "chapter_tag": "SOA",
+            "user_response": "3",
+            "correct_response": "3",
+            "status": "Correct",
+            "marks_awarded": 4
+        },
+        {
+            "question_uuid": "90ecc1eb53b9",
+            "question_id": "q48",
+            "section": "Chemistry B",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "26",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "c36aadf47953",
+            "question_id": "q49",
+            "section": "Chemistry B",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "8",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "47ac72ee9a2f",
+            "question_id": "q50",
+            "section": "Chemistry B",
+            "chapter_tag": "SBC",
+            "user_response": null,
+            "correct_response": "25",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "51c8973256bc",
+            "question_id": "q51",
+            "section": "Mathematics A",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "ca3b0daef92b",
+            "question_id": "q52",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "4ad962c625c1",
+            "question_id": "q53",
+            "section": "Mathematics A",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "a903cf5e82f2",
+            "question_id": "q54",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "621e1051d6e0",
+            "question_id": "q55",
+            "section": "Mathematics A",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "8db157b45878",
+            "question_id": "q56",
+            "section": "Mathematics A",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "35f73b618123",
+            "question_id": "q57",
+            "section": "Mathematics A",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "b",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "efb5cedcc5e0",
+            "question_id": "q58",
+            "section": "Mathematics A",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "b",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "1d1fbf0799e3",
+            "question_id": "q59",
+            "section": "Mathematics A",
+            "chapter_tag": "CNQ",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "a9fb58429d8a",
+            "question_id": "q60",
+            "section": "Mathematics A",
+            "chapter_tag": "CNQ",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "0d7ce1ec44e0",
+            "question_id": "q61",
+            "section": "Mathematics A",
+            "chapter_tag": "CNQ",
+            "user_response": null,
+            "correct_response": "b",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "50226dea5898",
+            "question_id": "q62",
+            "section": "Mathematics A",
+            "chapter_tag": "CNQ",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "d66ffe0b162e",
+            "question_id": "q63",
+            "section": "Mathematics A",
+            "chapter_tag": "CNQ",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "356e13d3828e",
+            "question_id": "q64",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "f11fb3abaf38",
+            "question_id": "q65",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "c",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "fff0fb95e7d7",
+            "question_id": "q66",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "174d37f21b71",
+            "question_id": "q67",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "ad8aef294bea",
+            "question_id": "q68",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "a",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "a82c9d3348fa",
+            "question_id": "q69",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "b",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "f229315f860b",
+            "question_id": "q70",
+            "section": "Mathematics A",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "d",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "f9725afd73c9",
+            "question_id": "q71",
+            "section": "Mathematics B",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "2",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "3e6fa52c0a21",
+            "question_id": "q72",
+            "section": "Mathematics B",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "5",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "6a1c142480a1",
+            "question_id": "q73",
+            "section": "Mathematics B",
+            "chapter_tag": "QEN1",
+            "user_response": null,
+            "correct_response": "2",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "50c30ab57310",
+            "question_id": "q74",
+            "section": "Mathematics B",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "31",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        },
+        {
+            "question_uuid": "48c54440a354",
+            "question_id": "q75",
+            "section": "Mathematics B",
+            "chapter_tag": "LIQ",
+            "user_response": null,
+            "correct_response": "1",
+            "status": "Unattempted",
+            "marks_awarded": 0
+        }
+    ],
+    "section_scores": {
+        "Physics A": {
+            "score": 21,
+            "correct": 6,
+            "incorrect": 3,
+            "unattempted": 11,
+            "total_questions": 20
+        },
+        "Physics B": {
+            "score": 4,
+            "correct": 1,
+            "incorrect": 2,
+            "unattempted": 2,
+            "total_questions": 5
+        },
+        "Chemistry A": {
+            "score": 39,
+            "correct": 10,
+            "incorrect": 1,
+            "unattempted": 9,
+            "total_questions": 20
+        },
+        "Chemistry B": {
+            "score": 8,
+            "correct": 2,
+            "incorrect": 0,
+            "unattempted": 3,
+            "total_questions": 5
+        },
+        "Mathematics A": {
+            "score": 0,
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 20,
+            "total_questions": 20
+        },
+        "Mathematics B": {
+            "score": 0,
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 5,
+            "total_questions": 5
+        }
+    },
+    "chapter_scores": {
+        "PHW": {
+            "score": 4,
+            "correct": 1,
+            "incorrect": 0,
+            "unattempted": 2,
+            "total_questions": 3
+        },
+        "UNM": {
+            "score": 15,
+            "correct": 4,
+            "incorrect": 2,
+            "unattempted": 2,
+            "total_questions": 8
+        },
+        "MSL": {
+            "score": 7,
+            "correct": 2,
+            "incorrect": 1,
+            "unattempted": 3,
+            "total_questions": 6
+        },
+        "MPN": {
+            "score": -1,
+            "correct": 0,
+            "incorrect": 2,
+            "unattempted": 6,
+            "total_questions": 8
+        },
+        "SOA": {
+            "score": 19,
+            "correct": 5,
+            "incorrect": 1,
+            "unattempted": 2,
+            "total_questions": 8
+        },
+        "SBC": {
+            "score": 28,
+            "correct": 7,
+            "incorrect": 0,
+            "unattempted": 10,
+            "total_questions": 17
+        },
+        "QEN1": {
+            "score": 0,
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 9,
+            "total_questions": 9
+        },
+        "LIQ": {
+            "score": 0,
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 11,
+            "total_questions": 11
+        },
+        "CNQ": {
+            "score": 0,
+            "correct": 0,
+            "incorrect": 0,
+            "unattempted": 5,
+            "total_questions": 5
+        }
+    }
+}
