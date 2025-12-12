@@ -42,6 +42,13 @@ class ScoreService:
 
         questions = ppt_data.get('questions', [])
 
+        # Total stats aggregators
+        total_score = 0
+        total_correct = 0
+        total_incorrect = 0
+        total_unattempted = 0
+        total_questions_count = 0
+
         for q in questions:
             uuid = q.get('uuid')
             q_id = q.get('id')
@@ -73,6 +80,7 @@ class ScoreService:
             if section_name in section_scores:
                 section_scores[section_name]['total_questions'] += 1
             chapter_scores[chapter_tag]['total_questions'] += 1
+            total_questions_count += 1
 
             if user_ans is not None:
                 # Check if answer is correct
@@ -87,7 +95,7 @@ class ScoreService:
                 status = 'Unattempted'
                 marks = 0
 
-            # Aggregate
+            # Aggregate section stats
             if section_name in section_scores:
                 section_scores[section_name]['score'] += marks
                 if status == 'Correct':
@@ -97,6 +105,7 @@ class ScoreService:
                 else:
                     section_scores[section_name]['unattempted'] += 1
 
+            # Aggregate chapter stats
             chapter_scores[chapter_tag]['score'] += marks
             if status == 'Correct':
                 chapter_scores[chapter_tag]['correct'] += 1
@@ -104,6 +113,15 @@ class ScoreService:
                 chapter_scores[chapter_tag]['incorrect'] += 1
             else:
                 chapter_scores[chapter_tag]['unattempted'] += 1
+
+            # Aggregate total stats
+            total_score += marks
+            if status == 'Correct':
+                total_correct += 1
+            elif status == 'Incorrect':
+                total_incorrect += 1
+            else:
+                total_unattempted += 1
 
             attempt_comparison.append({
                 "question_uuid": uuid,
@@ -116,10 +134,27 @@ class ScoreService:
                 "marks_awarded": marks
             })
 
-        output = {
-            "attempt_comparison": attempt_comparison,
-            "section_scores": section_scores,
-            "chapter_scores": chapter_scores
+        # Construct output with desired order
+        output = {}
+
+        # 1. Test details (everything from ppt_data except questions)
+        for key, value in ppt_data.items():
+            if key != 'questions':
+                output[key] = value
+
+        # 2. Existing score data
+        output["attempt_comparison"] = attempt_comparison
+        output["section_scores"] = section_scores
+        output["chapter_scores"] = chapter_scores
+
+        # 3. Total stats at the end
+        output["total_stats"] = {
+            "total_score": total_score,
+            "total_questions": total_questions_count,
+            "total_attempted": total_correct + total_incorrect,
+            "total_correct": total_correct,
+            "total_wrong": total_incorrect, # Using "total_wrong" as requested "total wrong"
+            "total_unattempted": total_unattempted
         }
 
         return output
