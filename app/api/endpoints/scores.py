@@ -4,17 +4,30 @@ from fastapi import APIRouter, Depends, HTTPException, status
 from app.core.security import get_current_user, TokenData
 from app.core.supabase import db
 from app.services.score_service import score_service
+from app.schemas.score import ScoreResponse
 
 router = APIRouter()
 logger = logging.getLogger(__name__)
 
-@router.post("/{student_test_id}/calculate", status_code=status.HTTP_200_OK)
+@router.post(
+    "/{student_test_id}/calculate",
+    response_model=ScoreResponse,
+    status_code=status.HTTP_200_OK,
+    summary="Calculate Student Test Score",
+)
 async def calculate_student_test_score(
     student_test_id: str,
-    current_user: TokenData = Depends(get_current_user)
-):
+    current_user: TokenData = Depends(get_current_user),
+) -> ScoreResponse:
     """
     Calculate scores for a student test and push results to GitHub.
+
+    - **student_test_id**: The UUID of the student test to calculate.
+    - **current_user**: The authenticated user (inferred from token).
+
+    Returns:
+    - **student_test_id**: The ID of the processed test.
+    - **github_url**: The URL of the generated score file on GitHub.
     """
     supabase = await db.get_client()
 
@@ -91,7 +104,4 @@ async def calculate_student_test_score(
         # But we should probably alert the user or at least log it.
         # Returning the URL anyway.
 
-    return {
-        "student_test_id": student_test_id,
-        "github_url": github_url
-    }
+    return ScoreResponse(student_test_id=student_test_id, github_url=github_url)
