@@ -81,6 +81,12 @@ async def calculate_student_test_score(
         if student_test.get("user_id") != current_user.id:
             raise HTTPException(status_code=403, detail="Not authorized to access this test")
 
+    # Check if result_url is already present
+    existing_result_url = student_test.get("result_url")
+    if existing_result_url:
+        logger.info(f"Score already calculated for {student_test_id}. Returning existing URL.")
+        return ScoreResponse(student_test_id=student_test_id, github_url=existing_result_url)
+
     test_id = student_test.get("test_id")
     answers = student_test.get("answers")
 
