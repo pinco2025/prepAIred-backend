@@ -17,6 +17,8 @@ class Settings(BaseSettings):
     GITHUB_TOKEN: str = os.getenv("GITHUB_TOKEN", "")
     GITHUB_REPO: str = os.getenv("GITHUB_REPO", "")
 
+    ENABLE_AUTH: bool = False
+
     # CORS
     BACKEND_CORS_ORIGINS: List[Union[str, AnyHttpUrl]] = []
 
