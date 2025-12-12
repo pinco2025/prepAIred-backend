@@ -60,13 +60,14 @@ async def calculate_student_test_score(
     # 1. Fetch student_tests row
     try:
         response = await supabase.table("student_tests").select("*").eq("id", student_test_id).execute()
-        student_test = response.data
-        if not student_test:
-            raise HTTPException(status_code=404, detail="Student test not found")
-        student_test = student_test[0]
     except Exception as e:
         logger.error(f"Error fetching student test: {e}")
         raise HTTPException(status_code=500, detail="Error fetching student test")
+
+    student_test = response.data
+    if not student_test:
+        raise HTTPException(status_code=404, detail="Student test not found")
+    student_test = student_test[0]
 
     # 2. Verify user ownership (only if auth is enabled)
     if settings.ENABLE_AUTH:
@@ -87,13 +88,14 @@ async def calculate_student_test_score(
     # 3. Fetch tests row
     try:
         test_response = await supabase.table("tests").select("*").eq("testID", test_id).execute()
-        test_record = test_response.data
-        if not test_record:
-            raise HTTPException(status_code=404, detail="Test definition not found")
-        test_record = test_record[0]
     except Exception as e:
         logger.error(f"Error fetching test definition: {e}")
         raise HTTPException(status_code=500, detail="Error fetching test definition")
+
+    test_record = test_response.data
+    if not test_record:
+        raise HTTPException(status_code=404, detail="Test definition not found")
+    test_record = test_record[0]
 
     test_url = test_record.get("url")
     if not test_url:
