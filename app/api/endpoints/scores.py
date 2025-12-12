@@ -55,7 +55,8 @@ async def calculate_student_test_score(
     - **student_test_id**: The ID of the processed test.
     - **github_url**: The URL of the generated score file on GitHub.
     """
-    supabase = await db.get_client()
+    # Use service client to bypass RLS if configured
+    supabase = await db.get_service_client()
 
     # 1. Fetch student_tests row
     try:
@@ -66,6 +67,7 @@ async def calculate_student_test_score(
 
     student_test = response.data
     if not student_test:
+        logger.warning(f"Student test {student_test_id} not found. Check if ID is correct and if RLS allows access.")
         raise HTTPException(status_code=404, detail="Student test not found")
     student_test = student_test[0]
 
