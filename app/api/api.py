@@ -1,8 +1,7 @@
 from fastapi import APIRouter
-from app.api.endpoints import items, scores
+from app.api.endpoints import scores
 
 api_router = APIRouter()
-api_router.include_router(items.router, prefix="/items", tags=["items"])
 api_router.include_router(scores.router, prefix="/scores", tags=["scores"])
 
 @api_router.get("/health", tags=["health"])
