@@ -219,7 +219,7 @@ class ScoreService:
                     for t_id in topic_tags:
                         t_name = chapter_topics.get(str(t_id))
                         if t_name:
-                            update_meta('topics', t_name)
+                            update_meta('topics', f"{chapter_tag}-{t_id}")
 
         # Construct output with desired order
         output = {}
