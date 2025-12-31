@@ -1,0 +1,90 @@
+{
+  "testId": "IPFT-01",
+  "title": "IPFT- 01",
+  "testType": "Full",
+  "createdAt": "2025-12-23T20:46:44.525Z",
+  "duration": 10800,
+  "totalMarks": 300,
+  "totalQuestions": 75,
+  "sections": [
+    {
+      "name": "Physics A",
+      "marksPerQuestion": 4,
+      "negativeMarksPerQuestion": -1
+    },
+    {
+      "name": "Physics B",
+      "marksPerQuestion": 4,
+      "negativeMarksPerQuestion": -1
+    },
+    {
+      "name": "Chemistry A",
+      "marksPerQuestion": 4,
+      "negativeMarksPerQuestion": -1
+    },
+    {
+      "name": "Chemistry B",
+      "marksPerQuestion": 4,
+      "negativeMarksPerQuestion": -1
+    },
+    {
+      "name": "Mathematics A",
+      "marksPerQuestion": 4,
+      "negativeMarksPerQuestion": -1
+    },
+    {
+      "name": "Mathematics B",
+      "marksPerQuestion": 4,
+      "negativeMarksPerQuestion": -1
+    }
+  ],
+  "questions": [
+    {
+      "id": "q1",
+      "uuid": "7f7edb54-98c1-4b38-a017-5721a9770465",
+      "text": "An LCR circuit connected in series is supplied with an alternating emf source E. At the resonant frequency, the current amplitude is measured to be I₀. Determine the new amplitude of current at resonance if the resistance R in the circuit is increased to three times its original value.\n\nChoose the correct answer from the options given below:",
+      "image": null,
+      "options": [
+        {
+          "id": "a",
+          "text": "$3I_0$",
+          "image": null
+        },
+        {
+          "id": "b",
+          "text": "$\\frac{I_0}{\\sqrt{3}}$",
+          "image": null
+        },
+        {
+          "id": "c",
+          "text": "$\\frac{I_0}{3}$",
+          "image": null
+        },
+        {
+          "id": "d",
+          "text": "$I_0$",
+          "image": null
+        }
+      ],
+      "correctAnswer": "c",
+      "marks": 4,
+      "section": "Physics A",
+      "chapterCode": "ALC",
+      "topicCode": "JEE Main 2025 (Online) 22nd January Evening Shift",
+      "difficulty": "E",
+      "year": "2025",
+      "tag4": null,
+      "jeeMainsRelevance": 3,
+      "scary": false,
+      "lengthy": false,
+      "isMultiConcept": false,
+      "relatedConcepts": null,
+      "topicTags": [
+        "4"
+      ],
+      "verificationLevel1": "approved",
+      "verificationLevel2": null,
+      "importanceLevel": "basic",
+      "division": 1
+    }]
+}
