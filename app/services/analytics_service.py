@@ -43,26 +43,38 @@ class AnalyticsService:
         # 3. Process Scores
         section_scores = score_data.get("section_scores", {})
         total_stats = score_data.get("total_stats", {})
+        sections = score_data.get("sections", [])
 
-        # Calculate subject-wise scores
+        # Get ordered section names
+        ordered_section_names = []
+        if isinstance(sections, list):
+            for s in sections:
+                if isinstance(s, dict):
+                    ordered_section_names.append(s.get("name"))
+                elif isinstance(s, str):
+                    ordered_section_names.append(s)
+
+        # Fallback if sections list is empty or malformed
+        if not ordered_section_names:
+            logger.warning("No sections list found in score data, falling back to section_scores keys")
+            ordered_section_names = list(section_scores.keys())
+
+        # Calculate subject-wise scores based on positional grouping
+        # First 2 -> Physics, Next 2 -> Chemistry, Next 2 -> Math
         phy_score = 0.0
         chem_score = 0.0
         math_score = 0.0
-        # Determine if Bio is needed based on sections presence or explicit requirement
-        # For now, following user instruction "phy_avg, chem_avg and so on".
-        # Assuming PCMB structure if sections exist.
 
-        for section_name, stats in section_scores.items():
-            score = stats.get("score", 0)
-            name_lower = section_name.lower()
-            if "physics" in name_lower:
+        for i, section_name in enumerate(ordered_section_names):
+            score = section_scores.get(section_name, {}).get("score", 0)
+
+            if i < 2: # Sections 0, 1 -> Physics
                 phy_score += score
-            elif "chemistry" in name_lower:
+            elif i < 4: # Sections 2, 3 -> Chemistry
                 chem_score += score
-            elif "math" in name_lower:
+            elif i < 6: # Sections 4, 5 -> Math
                 math_score += score
-            # Add bio if needed, but strictly PCMB is standard for JEE/NEET
-            # The prompt implies typical subjects.
+            # Ignore further sections as per specific requirement
 
         # Calculate accuracy
         total_attempted = total_stats.get("total_attempted", 0)
@@ -70,8 +82,7 @@ class AnalyticsService:
 
         # Accuracy as percentage
         accuracy = (total_correct / total_attempted * 100) if total_attempted > 0 else 0.0
-        # Round accuracy to integer to satisfy smallint column constraints if necessary
-        # The error "invalid input syntax for type smallint" with a float value suggests strict typing.
+        # Round accuracy to integer to satisfy smallint column constraints
         accuracy_int = int(round(accuracy))
 
         # 4. Update user_analytics
@@ -93,7 +104,9 @@ class AnalyticsService:
         new_phy_avg = current_phy_avg + phy_score
         new_chem_avg = current_chem_avg + chem_score
         new_math_avg = current_math_avg + math_score
-        # Ensure new_accuracy is also an int if the column is smallint
+
+        # Ensure new_accuracy is also an int
+        # The logic is doing SUM as per existing pattern
         new_accuracy = int(current_accuracy + accuracy_int)
 
         analytics_update = {
