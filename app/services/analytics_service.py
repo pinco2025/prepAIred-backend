@@ -70,6 +70,9 @@ class AnalyticsService:
 
         # Accuracy as percentage
         accuracy = (total_correct / total_attempted * 100) if total_attempted > 0 else 0.0
+        # Round accuracy to integer to satisfy smallint column constraints if necessary
+        # The error "invalid input syntax for type smallint" with a float value suggests strict typing.
+        accuracy_int = int(round(accuracy))
 
         # 4. Update user_analytics
         analytics_response = await supabase.table("user_analytics").select("*").eq("user_id", user_id).execute()
@@ -78,13 +81,20 @@ class AnalyticsService:
         if analytics_response.data:
             current_data = analytics_response.data[0]
 
-        new_attempt_no = current_data.get("attempt_no", 0) + 1
+        new_attempt_no = (current_data.get("attempt_no") or 0) + 1
 
         # Update averages (accumulate scores)
-        new_phy_avg = current_data.get("phy_avg", 0.0) + phy_score
-        new_chem_avg = current_data.get("chem_avg", 0.0) + chem_score
-        new_math_avg = current_data.get("math_avg", 0.0) + math_score
-        new_accuracy = current_data.get("accuracy", 0.0) + accuracy
+        # Handle None values safely
+        current_phy_avg = current_data.get("phy_avg") or 0.0
+        current_chem_avg = current_data.get("chem_avg") or 0.0
+        current_math_avg = current_data.get("math_avg") or 0.0
+        current_accuracy = current_data.get("accuracy") or 0.0
+
+        new_phy_avg = current_phy_avg + phy_score
+        new_chem_avg = current_chem_avg + chem_score
+        new_math_avg = current_math_avg + math_score
+        # Ensure new_accuracy is also an int if the column is smallint
+        new_accuracy = int(current_accuracy + accuracy_int)
 
         analytics_update = {
             "user_id": user_id,
