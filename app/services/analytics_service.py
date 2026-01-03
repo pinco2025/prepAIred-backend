@@ -19,7 +19,7 @@ class AnalyticsService:
 
         # 1. Fetch student_test record
         supabase = await db.get_service_client()
-        response = await supabase.table("student_tests").select("*").eq("testID", test_attempt_id).execute()
+        response = await supabase.table("student_tests").select("*").eq("id", test_attempt_id).execute()
 
         if not response.data:
             raise ValueError(f"Student test not found for id: {test_attempt_id}")
@@ -36,7 +36,7 @@ class AnalyticsService:
              raise ValueError(f"User ID not found for test attempt: {test_attempt_id}")
 
         # 2. Fetch Test details (for 99ile)
-        tests_response = await supabase.table("tests").select("*").eq("id", test_id).execute()
+        tests_response = await supabase.table("tests").select("*").eq("testID", test_id).execute()
         test_data = {}
         if tests_response.data:
             test_data = tests_response.data[0]
