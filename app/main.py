@@ -5,6 +5,7 @@ from fastapi.responses import JSONResponse
 from fastapi.middleware.cors import CORSMiddleware
 from app.core.config import settings
 from app.api.api import api_router
+from app.api.endpoints import payment
 from app.core.supabase import db
 
 # Logging Configuration
@@ -53,6 +54,7 @@ async def global_exception_handler(request: Request, exc: Exception):
 
 # Include Router
 app.include_router(api_router, prefix=settings.API_V1_STR)
+app.include_router(payment.router, prefix="/api", tags=["payment"])
 
 @app.get("/")
 async def root():
