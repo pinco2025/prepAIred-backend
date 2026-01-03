@@ -7,3 +7,8 @@ class OrderCreateRequest(BaseModel):
 
 class OrderResponse(BaseModel):
     orderId: str
+
+class PaymentVerificationRequest(BaseModel):
+    razorpay_order_id: str
+    razorpay_payment_id: str
+    razorpay_signature: str

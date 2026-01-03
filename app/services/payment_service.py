@@ -37,6 +37,39 @@ class PaymentService:
             logger.error(f"Error creating Razorpay order: {e}")
             raise e
 
+    async def process_payment_completion(self, params: dict):
+        """
+        Verifies payment signature, fetches order details, and updates user subscription.
+        Returns a dict with status.
+        """
+        if not self.client:
+            raise Exception("Razorpay client not initialized")
+
+        # 1. Verify Signature
+        try:
+            self.client.utility.verify_payment_signature(params)
+        except Exception as e:
+            logger.error(f"Payment signature verification failed: {e}")
+            raise ValueError("Invalid payment signature")
+
+        # 2. Fetch Order to get metadata
+        order_id = params.get("razorpay_order_id")
+        try:
+            order = self.client.order.fetch(order_id)
+        except Exception as e:
+            logger.error(f"Error fetching order {order_id}: {e}")
+            raise ValueError(f"Could not fetch order: {e}")
+
+        # 3. Update Subscription
+        if "notes" in order and "userId" in order["notes"] and "planType" in order["notes"]:
+            user_id = order["notes"]["userId"]
+            plan_type = order["notes"]["planType"]
+            await self._update_user_subscription(user_id, plan_type)
+            return {"status": "verified", "user_id": user_id, "plan_type": plan_type}
+        else:
+            logger.warning(f"Order {order_id} missing notes for subscription update")
+            return {"status": "verified", "message": "Subscription update skipped due to missing metadata"}
+
     async def process_webhook(self, body: bytes, signature: str):
         if not self.client:
             raise Exception("Razorpay client not initialized")

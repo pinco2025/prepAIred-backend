@@ -59,3 +59,30 @@ app.include_router(payment.router, prefix="/api", tags=["payment"])
 @app.get("/")
 async def root():
     return {"message": "Welcome to FastAPI Supabase Boilerplate"}
+
+@app.post("/")
+async def handle_payment_return(request: Request):
+    # This handler catches the POST request from Razorpay redirect (if configured as callback_url)
+    # It attempts to verify the payment and return a response.
+    # In a real app, this should probably redirect to a frontend success/failure page.
+    from app.services.payment_service import PaymentService
+
+    try:
+        form_data = await request.form()
+        params = {
+            "razorpay_order_id": form_data.get("razorpay_order_id"),
+            "razorpay_payment_id": form_data.get("razorpay_payment_id"),
+            "razorpay_signature": form_data.get("razorpay_signature")
+        }
+
+        if not all(params.values()):
+             return JSONResponse(status_code=400, content={"message": "Missing payment parameters"})
+
+        service = PaymentService()
+        result = await service.process_payment_completion(params)
+
+        return JSONResponse(content={"message": "Payment processed successfully", "status": "verified", "details": result})
+
+    except Exception as e:
+        logger.error(f"Error handling payment return at root: {e}")
+        return JSONResponse(status_code=400, content={"message": "Payment verification failed", "detail": str(e)})
