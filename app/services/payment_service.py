@@ -95,7 +95,7 @@ class PaymentService:
         """Update user's tier in Supabase users table."""
         supabase = await db.get_service_client()
         try:
-            await supabase.table("users").update({"tier": plan_type}).eq("id", user_id).execute()
+            await supabase.table("users").update({"subscription_tier": plan_type}).eq("id", user_id).execute()
             logger.info(f"Updated tier for user {user_id} to {plan_type}")
         except Exception as e:
             logger.error(f"Failed to update user tier: {e}")
