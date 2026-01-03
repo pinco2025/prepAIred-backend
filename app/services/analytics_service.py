@@ -3,7 +3,7 @@ import logging
 import base64
 import httpx
 from datetime import datetime
-from typing import Dict, Any, List
+from typing import Dict, Any, List, Optional
 
 from app.core.config import settings
 from app.core.supabase import db
