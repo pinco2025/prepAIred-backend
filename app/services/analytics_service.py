@@ -28,6 +28,7 @@ class AnalyticsService:
         result_url = student_test.get("result_url")
         user_id = student_test.get("user_id")
         test_id = student_test.get("test_id")
+        submitted_at = student_test.get("submitted_at")
 
         if not result_url:
             raise ValueError(f"Result URL not found for test attempt: {test_attempt_id}")
@@ -169,9 +170,10 @@ class AnalyticsService:
             analytics_record = update_res.data[0]
 
         # 6. History JSON
+        timestamp = submitted_at or datetime.utcnow().isoformat()
         history_entry = {
             "test_attempt_id": test_attempt_id,
-            "timestamp": datetime.utcnow().isoformat(),
+            "timestamp": timestamp,
             "phy_score": phy_score,
             "chem_score": chem_score,
             "math_score": math_score,
@@ -337,7 +339,14 @@ class AnalyticsService:
             # 2. Append new entry
             history_list.append(new_entry)
 
-            # 3. Push back
+            # 3. Sort by timestamp to ensure chronological order for graphing
+            # Ensure safe sorting even if timestamp format varies slightly, though we expect ISO format
+            try:
+                history_list.sort(key=lambda x: x.get("timestamp", ""))
+            except Exception as e:
+                logger.warning(f"Failed to sort history list by timestamp: {e}")
+
+            # 4. Push back
             content_str = json.dumps(history_list, indent=4)
             content_encoded = base64.b64encode(content_str.encode("utf-8")).decode("utf-8")
 
