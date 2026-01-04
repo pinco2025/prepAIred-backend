@@ -176,15 +176,7 @@ class AnalyticsService:
             "chem_score": chem_score,
             "math_score": math_score,
             "accuracy": accuracy,
-            "percentile": percentile,
-            "cumulative_stats": {
-                "phy_avg": new_phy_avg,
-                "chem_avg": new_chem_avg,
-                "math_avg": new_math_avg,
-                "accuracy": new_accuracy,
-                "percentile": new_percentile_sum,
-                "attempt_no": new_attempt_no
-            }
+            "percentile": percentile
         }
 
         # Fetch existing history if history_url exists
