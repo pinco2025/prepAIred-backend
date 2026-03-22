@@ -181,6 +181,8 @@ class ScoreService:
             else:
                 total_unattempted += 1
 
+            blunder = (status == 'Incorrect' and str(q.get('difficulty', '')).strip().upper() == 'E')
+
             attempt_comparison.append({
                 "question_uuid": uuid,
                 "question_id": q_id,
@@ -189,7 +191,8 @@ class ScoreService:
                 "user_response": user_ans,
                 "correct_response": correct_ans,
                 "status": status,
-                "marks_awarded": marks
+                "marks_awarded": marks,
+                "blunder": blunder
             })
 
             # --- Collect Metadata Stats ---
