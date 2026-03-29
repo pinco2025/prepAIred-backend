@@ -71,22 +71,44 @@ class AnalyticsService:
             logger.warning("No sections list found in score data, falling back to section_scores keys")
             ordered_section_names = list(section_scores.keys())
 
-        # Calculate subject-wise scores based on positional grouping
-        # First 2 -> Physics, Next 2 -> Chemistry, Next 2 -> Math
+        # Detect exam type by section names to correctly bucket subject scores.
+        # NEET pattern: sections contain Botany/Zoology
+        # JEE pattern:  sections contain Math/Mathematics
+        all_section_names_lower = [s.lower() for s in ordered_section_names if s]
+        is_neet = any("botany" in s or "zoology" in s for s in all_section_names_lower)
+        exam_type = "NEET" if is_neet else "JEE"
+
         phy_score = 0.0
         chem_score = 0.0
         math_score = 0.0
+        botany_score = 0.0
+        zoo_score = 0.0
 
-        for i, section_name in enumerate(ordered_section_names):
-            score = section_scores.get(section_name, {}).get("score", 0)
-
-            if i < 2: # Sections 0, 1 -> Physics
-                phy_score += score
-            elif i < 4: # Sections 2, 3 -> Chemistry
-                chem_score += score
-            elif i < 6: # Sections 4, 5 -> Math
-                math_score += score
-            # Ignore further sections as per specific requirement
+        if is_neet:
+            # NEET: map by section name keyword
+            for section_name in ordered_section_names:
+                score = section_scores.get(section_name, {}).get("score", 0)
+                name_lower = (section_name or "").lower()
+                if "physics" in name_lower:
+                    phy_score += score
+                elif "chemistry" in name_lower:
+                    chem_score += score
+                elif "botany" in name_lower:
+                    botany_score += score
+                elif "zoology" in name_lower:
+                    zoo_score += score
+                else:
+                    logger.warning(f"Unrecognised NEET section name: '{section_name}', skipping")
+        else:
+            # JEE: positional grouping — first 2 Physics, next 2 Chemistry, next 2 Math
+            for i, section_name in enumerate(ordered_section_names):
+                score = section_scores.get(section_name, {}).get("score", 0)
+                if i < 2:
+                    phy_score += score
+                elif i < 4:
+                    chem_score += score
+                elif i < 6:
+                    math_score += score
 
         # Calculate accuracy
         total_attempted = total_stats.get("total_attempted", 0)
@@ -128,26 +150,29 @@ class AnalyticsService:
         current_phy_avg = current_data.get("phy_avg") or 0
         current_chem_avg = current_data.get("chem_avg") or 0
         current_math_avg = current_data.get("math_avg") or 0
+        current_botany_avg = current_data.get("botany_avg") or 0
+        current_zoo_avg = current_data.get("zoo_avg") or 0
         current_accuracy = current_data.get("accuracy") or 0
         current_percentile = current_data.get("percentile") or 0
 
         new_phy_avg = int(current_phy_avg + phy_score)
         new_chem_avg = int(current_chem_avg + chem_score)
         new_math_avg = int(current_math_avg + math_score)
+        new_botany_avg = int(current_botany_avg + botany_score)
+        new_zoo_avg = int(current_zoo_avg + zoo_score)
 
-        # Ensure new_accuracy is also an int
-        # The logic is doing SUM as per existing pattern
         new_accuracy = int(current_accuracy + accuracy_int)
-
-        # Update percentile accumulation
         new_percentile_sum = int(current_percentile + percentile_int)
 
         analytics_update = {
             "user_id": user_id,
+            "exam_type": exam_type,
             "attempt_no": new_attempt_no,
             "phy_avg": new_phy_avg,
             "chem_avg": new_chem_avg,
             "math_avg": new_math_avg,
+            "botany_avg": new_botany_avg,
+            "zoo_avg": new_zoo_avg,
             "accuracy": new_accuracy,
             "percentile": new_percentile_sum
             # history_url will be updated later
@@ -175,6 +200,8 @@ class AnalyticsService:
             "phy_score": phy_score,
             "chem_score": chem_score,
             "math_score": math_score,
+            "botany_score": botany_score,
+            "zoo_score": zoo_score,
             "accuracy": accuracy,
             "percentile": percentile
         }
@@ -216,6 +243,7 @@ class AnalyticsService:
         return {
             "message": "Analytics updated successfully",
             "user_id": user_id,
+            "exam_type": exam_type,
             "history_url": new_history_url,
             "chapter_url": new_chapter_url
         }

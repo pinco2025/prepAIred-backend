@@ -15,18 +15,14 @@ async def process_test_attempt(
     background_tasks: BackgroundTasks
 ) -> Any:
     """
-    Trigger processing of a test attempt to update user analytics.
-    This runs in the background.
+    Process a completed test attempt to update user analytics.
+
+    - **test_attempt_id**: UUID of the student test attempt to process.
+
+    Calculates chapter-wise performance, updates percentile rankings,
+    and persists the user's analytics history to GitHub.
     """
     try:
-        # We can run this in background as it might take time (GitHub API calls)
-        # But for now, let's await it to return the result immediately as per implicit requirements usually.
-        # However, "triggers this service" usually implies async processing.
-        # Given the steps involve external API calls, it's safer to await it
-        # to handle errors and return them to the caller, unless latency is a concern.
-        # If the user wants a simple trigger, background is better.
-        # But for debugging and verification, awaiting is better.
-        # I'll await it.
         result = await analytics_service.process_test_attempt(request.test_attempt_id)
         return result
     except ValueError as e:

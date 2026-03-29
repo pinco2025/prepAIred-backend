@@ -5,7 +5,11 @@
       "name": "Vector Algebra",
       "level": 2,
       "topics": {
-        "1": "circumcenter"
+        "1": "circumcenter",
+        "2": "projection",
+        "3": "bisector",
+        "4": "area",
+        "5": "collinearity"
       }
     },
     {
@@ -59,7 +63,10 @@
     {
       "code": "CPM",
       "name": "Circular Motion",
-      "level": 1
+      "level": 1,
+      "topics": {
+        "1": "Centripetal Force"
+      }
     },
     {
       "code": "LOM",
@@ -177,7 +184,8 @@
         "4": "Young's modulus",
         "5": "Poisson's Ratio",
         "6": "Bulk Modulus",
-        "7": "Modulus of Rigidity"
+        "7": "Modulus of Rigidity",
+        "8": "Energy"
       }
     },
     {
@@ -218,7 +226,8 @@
         "9": "Loss of Energy in Heat",
         "10": "Newton's law of Cooling",
         "11": "convection",
-        "12": "radiation"
+        "12": "radiation",
+        "13": "stephan's law"
       }
     },
     {
@@ -329,7 +338,9 @@
         "4": "Parallel plate capacitor with and without dielectric",
         "5": "Energy stored in capacitor",
         "6": "Charging of a Capacitor",
-        "7": "Discharging of Capacitor"
+        "7": "Discharging of Capacitor",
+        "8": "kinematics of charges",
+        "9": "Energy"
       }
     },
     {
@@ -400,7 +411,10 @@
         "4": "Lenz's law",
         "5": "Eddy currents",
         "6": "Self and mutual inductance",
-        "7": "Thermal Energy"
+        "7": "Thermal Energy",
+        "8": "transformer",
+        "9": "mettalic conductor",
+        "10": "motional emf"
       }
     },
     {
@@ -429,7 +443,9 @@
         "4": "Ratio of Permeabilities",
         "5": "Electromagnetic spectrum (radio, microwaves, infrared, visible, UV, X-rays, gamma rays)",
         "6": "Applications of electromagnetic waves",
-        "7": "Radiation pressure"
+        "7": "Radiation pressure",
+        "8": "Intensity",
+        "9": "Energy"
       }
     },
     {
@@ -452,7 +468,8 @@
         "13": "Refraction through prism",
         "14": "Minimum Deviation",
         "15": "Microscope and astronomical telescope",
-        "16": "Magnifying powers"
+        "16": "Magnifying powers",
+        "17": "real & apparent Depth"
       }
     },
     {
@@ -521,11 +538,6 @@
         "9": "Zener diode characteristics",
         "10": "Identification of electronic components"
       }
-    },
-    {
-      "code": "CMS",
-      "name": "Communication Systems",
-      "level": 4
     }
   ],
   "Chemistry": [
@@ -584,7 +596,8 @@
         "1": "Modern periodic law",
         "2": "Present form of periodic table",
         "3": "s, p, d, f block elements",
-        "4": "Periodic trends (atomic and ionic radii, ionization enthalpy, electron gain enthalpy, valence, oxidation states, chemical reactivity)"
+        "4": "Periodic trends (atomic and ionic radii, ionization enthalpy, electron gain enthalpy, valence, oxidation states, chemical reactivity)",
+        "5": "oxides"
       }
     },
     {
@@ -614,11 +627,6 @@
         "20": "Metallic bonding",
         "21": "Hydrogen bonding and applications"
       }
-    },
-    {
-      "code": "STM",
-      "name": "States of Matter",
-      "level": 4
     },
     {
       "code": "CTD",
@@ -675,7 +683,8 @@
         "9": "Hydrolysis of salts",
         "10": "Solubility of sparingly soluble salts",
         "11": "Solubility products",
-        "12": "Buffer solutions"
+        "12": "Buffer solutions",
+        "13": "ph of mixture"
       }
     },
     {
@@ -687,18 +696,9 @@
         "2": "Redox reactions",
         "3": "Oxidation number",
         "4": "Rules for assigning oxidation number",
-        "5": "Balancing redox reactions"
+        "5": "Balancing redox reactions",
+        "6": "Oxidising/ Reducing Agent"
       }
-    },
-    {
-      "code": "HYD",
-      "name": "Hydrogen",
-      "level": 4
-    },
-    {
-      "code": "SBE",
-      "name": "The s-Block Elements",
-      "level": 4
     },
     {
       "code": "PBE",
@@ -709,7 +709,8 @@
         "2": "Electronic configuration",
         "3": "Physical and chemical properties trends",
         "4": "Unique behaviour of first element in each group",
-        "5": "Theory"
+        "5": "Theory",
+        "6": "chalcogen"
       }
     },
     {
@@ -746,7 +747,9 @@
         "1": "Qualitative analysis: detection of nitrogen, sulphur, phosphorus, halogens",
         "2": "Quantitative analysis: estimation of carbon, hydrogen, nitrogen, halogens, sulphur, phosphorus",
         "3": "Calculations of empirical and molecular formulae",
-        "4": "Numerical problems"
+        "4": "Numerical problems",
+        "5": "test to distinguish",
+        "6": "Iodoform Reaction"
       }
     },
     {
@@ -762,16 +765,6 @@
         "6": "Aromatic hydrocarbons: nomenclature, benzene structure and aromaticity, electrophilic substitution mechanism, halogenation, nitration, Friedel-Craft's alkylation and acylation, directive influence",
         "7": "Reaction"
       }
-    },
-    {
-      "code": "ENV",
-      "name": "Environmental Chemistry",
-      "level": 4
-    },
-    {
-      "code": "SLS",
-      "name": "Solid State",
-      "level": 4
     },
     {
       "code": "SOL",
@@ -831,18 +824,9 @@
         "10": "Arrhenius theory",
         "11": "Activation energy and calculation",
         "12": "Collision theory of bimolecular gaseous reactions",
-        "13": "first order reaction"
+        "13": "first order reaction",
+        "14": "decay constant"
       }
-    },
-    {
-      "code": "SFC",
-      "name": "Surface Chemistry",
-      "level": 4
-    },
-    {
-      "code": "GPP",
-      "name": "General Principles and Processes of Isolation of Elements",
-      "level": 4
     },
     {
       "code": "DBF",
@@ -897,7 +881,8 @@
         "4": "Mechanisms of substitution reactions",
         "5": "Uses and environmental effects of chloroform, iodoform, freons, DDT",
         "6": "Nucleophilicity",
-        "7": "SN2"
+        "7": "SN2",
+        "8": "Named Reactions"
       }
     },
     {
@@ -910,7 +895,8 @@
         "3": "Carboxylic Acids: acidic strength and factors affecting it",
         "4": "Tests",
         "5": "oxidation/reduction",
-        "6": "Preparation of Alcohol/Phenol/Ether"
+        "6": "Preparation of Alcohol/Phenol/Ether",
+        "7": "Hydrolysis"
       }
     },
     {
@@ -919,7 +905,8 @@
       "level": 2,
       "topics": {
         "1": "Oxidation/Reduction",
-        "2": "tests'"
+        "2": "tests'",
+        "3": "named reactions"
       }
     },
     {
@@ -930,7 +917,8 @@
         "1": "Amines: nomenclature, classification, structure, basic character, identification of primary, secondary, tertiary amines",
         "2": "Diazonium Salts: importance in synthetic organic chemistry",
         "3": "Basicity",
-        "4": "hydrolysis"
+        "4": "hydrolysis",
+        "5": "Tests"
       }
     },
     {
@@ -945,16 +933,6 @@
         "5": "Nucleic Acids: chemical constitution of DNA and RNA, biological functions",
         "6": "Hormones: general introduction"
       }
-    },
-    {
-      "code": "PLY",
-      "name": "Polymers",
-      "level": 4
-    },
-    {
-      "code": "CEL",
-      "name": "Chemistry in Everyday Life",
-      "level": 4
     },
     {
       "code": "QEL",
@@ -984,7 +962,8 @@
         "5": "Relations and types of relations",
         "6": "Equivalence relations",
         "7": "Functions (one-one, into, onto)",
-        "8": "Composition of functions"
+        "8": "Composition of functions",
+        "9": "Cardinality"
       }
     },
     {
@@ -1010,21 +989,6 @@
       "code": "TFI",
       "name": "Trigonometric Functions and Equations",
       "level": 1
-    },
-    {
-      "code": "HAD",
-      "name": "Height and Distance",
-      "level": 1
-    },
-    {
-      "code": "POT",
-      "name": "Properties of Triangle",
-      "level": 1
-    },
-    {
-      "code": "PMI",
-      "name": "Principle of Mathematical Induction",
-      "level": 4
     },
     {
       "code": "CMX",
@@ -1146,7 +1110,8 @@
         "9": "Properties",
         "10": "Tangent",
         "11": "Normal",
-        "12": "Length of Chord"
+        "12": "Length of Chord",
+        "13": "inscribed/circumscribed circle"
       }
     },
     {
@@ -1178,7 +1143,8 @@
         "6": "Properties",
         "7": "Director Circle",
         "8": "Tangent",
-        "9": "Normal"
+        "9": "Normal",
+        "10": "chord"
       }
     },
     {
@@ -1226,11 +1192,6 @@
       }
     },
     {
-      "code": "MRS",
-      "name": "Mathematical Reasoning",
-      "level": 4
-    },
-    {
       "code": "STA",
       "name": "Statistics",
       "level": 2,
@@ -1259,7 +1220,8 @@
       "level": 4,
       "topics": {
         "1": "Domain - Range",
-        "2": "solution"
+        "2": "solution",
+        "3": "value based"
       }
     },
     {
@@ -1274,7 +1236,8 @@
         "5": "Area of triangles using determinants",
         "6": "Adjoint and inverse of square matrix",
         "7": "Test of consistency",
-        "8": "Solution of simultaneous linear equations using matrices"
+        "8": "Solution of simultaneous linear equations using matrices",
+        "9": "Adjoint Properties"
       }
     },
     {
@@ -1374,11 +1337,375 @@
         "7": "Skew lines",
         "8": "Shortest distance between skew lines"
       }
+    }
+  ],
+  "Botany": [
+    {
+      "code": "TLW",
+      "name": "The Living World",
+      "level": 1,
+      "topics": {
+        "1": "What is living?",
+        "2": "Taxonomic categories",
+        "3": "Taxonomical Aids"
+      }
     },
     {
-      "code": "LPG",
-      "name": "Linear Programming",
-      "level": 4
+      "code": "BCL",
+      "name": "Biological Classification",
+      "level": 2,
+      "topics": {
+        "1": "Monera",
+        "2": "Protista",
+        "3": "Fungi",
+        "4": "Viruses, Viroids and Lichens"
+      }
+    },
+    {
+      "code": "PKD",
+      "name": "Plant Kingdom",
+      "level": 2,
+      "topics": {
+        "1": "Algae",
+        "2": "Bryophytes",
+        "3": "Pteridophytes",
+        "4": "Gymnosperms",
+        "5": "Angiosperms"
+      }
+    },
+    {
+      "code": "MFP",
+      "name": "Morphology of Flowering Plants",
+      "level": 3,
+      "topics": {
+        "1": "The Root",
+        "2": "The Stem",
+        "3": "The Leaf",
+        "4": "Inflorescence",
+        "5": "The Flower",
+        "6": "The Fruit and Seed"
+      }
+    },
+    {
+      "code": "AFP",
+      "name": "Anatomy of Flowering Plants",
+      "level": 3,
+      "topics": {
+        "1": "The Tissues",
+        "2": "The Tissue System",
+        "3": "Anatomy of Dicot and Monocot Plants",
+        "4": "Secondary Growth"
+      }
+    },
+    {
+      "code": "CUL",
+      "name": "Cell: The Unit of Life",
+      "level": 1,
+      "topics": {
+        "1": "What is a Cell?",
+        "2": "Cell Theory",
+        "3": "Prokaryotic Cells",
+        "4": "Eukaryotic Cells"
+      }
+    },
+    {
+      "code": "BML",
+      "name": "Biomolecules",
+      "level": 3,
+      "topics": {
+        "1": "Primary and Secondary Metabolites",
+        "2": "Biomacromolecules",
+        "3": "Proteins, Polysaccharides, Nucleic Acids",
+        "4": "Enzymes"
+      }
+    },
+    {
+      "code": "CCD",
+      "name": "Cell Cycle and Cell Division",
+      "level": 2,
+      "topics": {
+        "1": "Cell Cycle",
+        "2": "M Phase",
+        "3": "Significance of Mitosis",
+        "4": "Meiosis"
+      }
+    },
+    {
+      "code": "PHP",
+      "name": "Photosynthesis in Higher Plants",
+      "level": 3,
+      "topics": {
+        "1": "Light Reaction",
+        "2": "The Electron Transport",
+        "3": "C3 and C4 Pathways",
+        "4": "Photorespiration"
+      }
+    },
+    {
+      "code": "RIP",
+      "name": "Respiration in Plants",
+      "level": 3,
+      "topics": {
+        "1": "Glycolysis",
+        "2": "Fermentation",
+        "3": "Aerobic Respiration",
+        "4": "Amphibolic Pathway"
+      }
+    },
+    {
+      "code": "PGD",
+      "name": "Plant Growth and Development",
+      "level": 2,
+      "topics": {
+        "1": "Growth Rates",
+        "2": "Differentiation and Dedifferentiation",
+        "3": "Plant Growth Regulators",
+        "4": "Photoperiodism"
+      }
+    },
+    {
+      "code": "RIO",
+      "name": "Reproduction in Organisms",
+      "level": 1,
+      "topics": {
+        "1": "Asexual Reproduction",
+        "2": "Sexual Reproduction"
+      }
+    },
+    {
+      "code": "SRF",
+      "name": "Sexual Reproduction in Flowering Plants",
+      "level": 2,
+      "topics": {
+        "1": "Pre-fertilization: Structures and Events",
+        "2": "Double Fertilization",
+        "3": "Post-fertilization: Structures and Events",
+        "4": "Apomixis and Polyembryony"
+      }
+    },
+    {
+      "code": "MBI",
+      "name": "Molecular Basis of Inheritance",
+      "level": 4,
+      "topics": {
+        "1": "The DNA",
+        "2": "The Search for Genetic Material",
+        "3": "RNA World",
+        "4": "Replication",
+        "5": "Transcription",
+        "6": "Genetic Code",
+        "7": "Translation"
+      }
+    },
+    {
+      "code": "MHW",
+      "name": "Microbes in Human Welfare",
+      "level": 1,
+      "topics": {
+        "1": "Microbes in Household/Industrial Products",
+        "2": "Microbes in Sewage Treatment",
+        "3": "Microbes as Biofertilisers"
+      }
+    },
+    {
+      "code": "BPP",
+      "name": "Biotechnology: Principles and Processes",
+      "level": 3,
+      "topics": {
+        "1": "Principles of Biotechnology",
+        "2": "Tools of Recombinant DNA Technology",
+        "3": "Processes of Recombinant DNA Technology"
+      }
+    },
+    {
+      "code": "BTA",
+      "name": "Biotechnology and Its Applications",
+      "level": 3,
+      "topics": {
+        "1": "Biotechnological Applications in Agriculture",
+        "2": "Biotechnological Applications in Medicine",
+        "3": "Transgenic Animals",
+        "4": "Ethical Issues"
+      }
+    },
+    {
+      "code": "OAP",
+      "name": "Organisms and Populations",
+      "level": 2,
+      "topics": {
+        "1": "Organism and Its Environment",
+        "2": "Populations: Attributes, Growth, and Interactions"
+      }
+    },
+    {
+      "code": "ECO",
+      "name": "Ecosystem",
+      "level": 2,
+      "topics": {
+        "1": "Ecosystem–Structure and Function",
+        "2": "Productivity and Decomposition",
+        "3": "Energy Flow",
+        "4": "Ecological Pyramids"
+      }
+    },
+    {
+      "code": "BAC",
+      "name": "Biodiversity and Conservation",
+      "level": 1,
+      "topics": {
+        "1": "Patterns of Biodiversity",
+        "2": "Importance of Species Diversity",
+        "3": "Loss of Biodiversity",
+        "4": "Biodiversity Conservation"
+      }
+    },
+    {
+      "code": "PIV",
+      "name": "Principles of Inheritance and Variation",
+      "level": 4,
+      "topics": {
+        "1": "Mendel’s Laws of Inheritance",
+        "2": "Inheritance of One Gene",
+        "3": "Inheritance of Two Genes",
+        "4": "Sex Determination",
+        "5": "Genetic Disorders"
+      }
+    }
+  ],
+  "Zoology": [
+    {
+      "code": "AKD",
+      "name": "Animal Kingdom",
+      "level": 3,
+      "topics": {
+        "1": "Basis of Classification",
+        "2": "Classification of Animals (Phylum wise)"
+      }
+    },
+    {
+      "code": "SOI",
+      "name": "Structural Organisation in Animals",
+      "level": 2,
+      "topics": {
+        "1": "Animal Tissues",
+        "2": "Organ and Organ System",
+        "3": "Earthworm, Cockroach, Frogs"
+      }
+    },
+    {
+      "code": "BEG",
+      "name": "Breathing and Exchange of Gases",
+      "level": 2,
+      "topics": {
+        "1": "Respiratory Organs",
+        "2": "Mechanism of Breathing",
+        "3": "Exchange and Transport of Gases",
+        "4": "Regulation of Respiration"
+      }
+    },
+    {
+      "code": "BFC",
+      "name": "Body Fluids and Circulation",
+      "level": 3,
+      "topics": {
+        "1": "Blood",
+        "2": "Lymph",
+        "3": "Circulatory Pathways",
+        "4": "Double Circulation",
+        "5": "Regulation of Cardiac Activity"
+      }
+    },
+    {
+      "code": "EPE",
+      "name": "Excretory Products and Their Elimination",
+      "level": 3,
+      "topics": {
+        "1": "Human Excretory System",
+        "2": "Urine Formation",
+        "3": "Function of the Tubules",
+        "4": "Regulation of Kidney Function"
+      }
+    },
+    {
+      "code": "LAM",
+      "name": "Locomotion and Movement",
+      "level": 2,
+      "topics": {
+        "1": "Types of Movement",
+        "2": "Muscle",
+        "3": "Skeletal System",
+        "4": "Joints"
+      }
+    },
+    {
+      "code": "NCC",
+      "name": "Neural Control and Coordination",
+      "level": 4,
+      "topics": {
+        "1": "Neural System",
+        "2": "Human Neural System",
+        "3": "Neuron as Structural and Functional Unit",
+        "4": "Central Nervous System",
+        "5": "Reflex Action and Reflex Arc"
+      }
+    },
+    {
+      "code": "CCI",
+      "name": "Chemical Coordination and Integration",
+      "level": 2,
+      "topics": {
+        "1": "Endocrine Glands and Hormones",
+        "2": "Human Endocrine System",
+        "3": "Hormones of Heart, Kidney and Gastrointestinal Tract",
+        "4": "Mechanism of Hormone Action"
+      }
+    },
+    {
+      "code": "HRP",
+      "name": "Human Reproduction",
+      "level": 3,
+      "topics": {
+        "1": "Male and Female Reproductive Systems",
+        "2": "Gametogenesis",
+        "3": "Menstrual Cycle",
+        "4": "Fertilization and Implantation",
+        "5": "Pregnancy and Embryonic Development"
+      }
+    },
+    {
+      "code": "RHT",
+      "name": "Reproductive Health",
+      "level": 1,
+      "topics": {
+        "1": "Reproductive Health - Problems and Strategies",
+        "2": "Population Explosion and Birth Control",
+        "3": "Medical Termination of Pregnancy",
+        "4": "Sexually Transmitted Diseases",
+        "5": "Infertility"
+      }
+    },
+    {
+      "code": "EVO",
+      "name": "Evolution",
+      "level": 3,
+      "topics": {
+        "1": "Origin of Life",
+        "2": "Evolution of Life Forms - A Theory",
+        "3": "Evidence for Evolution",
+        "4": "Adaptive Radiation",
+        "5": "Hardy-Weinberg Principle"
+      }
+    },
+    {
+      "code": "HHD",
+      "name": "Human Health and Disease",
+      "level": 2,
+      "topics": {
+        "1": "Common Diseases in Humans",
+        "2": "Immunity",
+        "3": "AIDS and Cancer",
+        "4": "Drugs and Alcohol Abuse"
+      }
     }
   ]
 }
